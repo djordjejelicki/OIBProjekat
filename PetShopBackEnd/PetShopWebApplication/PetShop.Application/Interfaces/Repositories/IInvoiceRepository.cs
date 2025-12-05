@@ -11,5 +11,6 @@ namespace PetShop.Application.Interfaces.Repositories
     {
         void Add(Invoice invoice);
         IEnumerable<Invoice> GetAll();
+        Invoice GetById(Guid id);
     }
 }

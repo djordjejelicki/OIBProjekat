@@ -17,3 +17,4 @@ C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetSho
 C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Infrastructure\obj\Debug\net8.0\PetShop.Infrastructure.pdb
 C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Infrastructure\obj\Debug\net8.0\PetShop.Infrastructure.genruntimeconfig.cache
 C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Infrastructure\obj\Debug\net8.0\ref\PetShop.Infrastructure.dll
+C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Infrastructure\obj\Debug\net8.0\PetShop.Infrastructure.sourcelink.json

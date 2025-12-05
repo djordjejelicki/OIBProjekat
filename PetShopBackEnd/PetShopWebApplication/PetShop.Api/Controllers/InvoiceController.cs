@@ -1,12 +1,34 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using PetShop.Application.Interfaces.Services;
 
 namespace PetShop.Api.Controllers
 {
-    public class InvoiceController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class InvoiceController : ControllerBase
     {
-        public IActionResult Index()
+        private readonly IInvoiceService _invoiceService;
+
+        public InvoiceController(IInvoiceService invoiceService)
         {
-            return View();
+            _invoiceService = invoiceService;
+        }
+
+        [HttpGet]
+        [Authorize(Roles = "Manager")]
+        public IActionResult GetAll()
+        {
+            var invoices = _invoiceService.GetAll();
+            return Ok(invoices);
+        }
+
+        [HttpGet("{id}")]
+        [Authorize(Roles = "Manager")]
+        public IActionResult GetById(Guid id)
+        {
+            var inovoice = _invoiceService.GetById(id);
+            return Ok(inovoice);
         }
     }
 }

@@ -1,0 +1,57 @@
+.manager-container {
+    padding: 40px;
+    text-align: center;
+    background: #f5f7fa;
+    height: 100vh;
+}
+
+.manager-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.manager-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.manager-btn {
+    padding: 12px 25px;
+    background: #4a90e2;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+    width: 220px;
+    text-align: center;
+}
+
+.manager-btn:hover {
+    background: #357ab7;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logout-btn {
+    background: #e74c3c;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.logout-btn:hover {
+    background: #c0392b;
+}

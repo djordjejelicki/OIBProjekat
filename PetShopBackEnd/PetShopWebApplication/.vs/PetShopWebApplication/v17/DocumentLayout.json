@@ -3,52 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\services\\salesselectorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\services\\salesselectorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\services\\sellpetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\services\\sellpetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\services\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\services\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{593AB8B9-E115-404D-B08B-C279CB9579D8}|PetShop.Api\\PetShop.Api.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{593AB8B9-E115-404D-B08B-C279CB9579D8}|PetShop.Api\\PetShop.Api.csproj|solutionrelative:petshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{593AB8B9-E115-404D-B08B-C279CB9579D8}|PetShop.Api\\PetShop.Api.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.api\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{593AB8B9-E115-404D-B08B-C279CB9579D8}|PetShop.Api\\PetShop.Api.csproj|solutionrelative:petshop.api\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\services\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\services\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{593AB8B9-E115-404D-B08B-C279CB9579D8}|PetShop.Api\\PetShop.Api.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.api\\controllers\\sellcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{593AB8B9-E115-404D-B08B-C279CB9579D8}|PetShop.Api\\PetShop.Api.csproj|solutionrelative:petshop.api\\controllers\\sellcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\dependencyinjection\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\dependencyinjection\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\services\\sales\\daysalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\services\\sales\\daysalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F973EA3D-EA04-4D30-B191-267A418A1DC3}|PetShop.Domain\\PetShop.Domain.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.domain\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F973EA3D-EA04-4D30-B191-267A418A1DC3}|PetShop.Domain\\PetShop.Domain.csproj|solutionrelative:petshop.domain\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{593AB8B9-E115-404D-B08B-C279CB9579D8}|PetShop.Api\\PetShop.Api.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.api\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{593AB8B9-E115-404D-B08B-C279CB9579D8}|PetShop.Api\\PetShop.Api.csproj|solutionrelative:petshop.api\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\repositories\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\repositories\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\services\\sales\\nightsalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\services\\sales\\nightsalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\services\\sellpetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\services\\sellpetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,28 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Api\\Helpers\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "PetShop.Api\\Helpers\\JwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Api\\Helpers\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "PetShop.Api\\Helpers\\JwtTokenGenerator.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Api\\Program.cs",
+              "RelativeDocumentMoniker": "PetShop.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Api\\Program.cs",
+              "RelativeToolTip": "PetShop.Api\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:51:58.126Z",
+              "WhenOpened": "2025-12-05T12:18:42.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "PetShop.Infrastructure\\Services\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\InvoiceService.cs",
+              "RelativeToolTip": "PetShop.Infrastructure\\Services\\InvoiceService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T10:31:48.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "PetShop.Infrastructure\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "PetShop.Infrastructure\\Services\\UserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T10:08:02.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SellPetService.cs",
               "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\SellPetService.cs",
               "RelativeDocumentMoniker": "PetShop.Infrastructure\\Services\\SellPetService.cs",
               "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\SellPetService.cs",
               "RelativeToolTip": "PetShop.Infrastructure\\Services\\SellPetService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:27:08.068Z",
+              "WhenOpened": "2025-12-05T10:07:17.363Z",
               "EditorCaption": ""
             },
             {
@@ -98,126 +96,9 @@
               "RelativeDocumentMoniker": "PetShop.Infrastructure\\Services\\PetService.cs",
               "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\PetService.cs",
               "RelativeToolTip": "PetShop.Infrastructure\\Services\\PetService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCUAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:24:34.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Domain\\Entities\\Invoice.cs",
-              "RelativeDocumentMoniker": "PetShop.Domain\\Entities\\Invoice.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Domain\\Entities\\Invoice.cs",
-              "RelativeToolTip": "PetShop.Domain\\Entities\\Invoice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:14:25.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InvoiceDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Api\\DTOs\\InvoiceDTO.cs",
-              "RelativeDocumentMoniker": "PetShop.Api\\DTOs\\InvoiceDTO.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Api\\DTOs\\InvoiceDTO.cs",
-              "RelativeToolTip": "PetShop.Api\\DTOs\\InvoiceDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:14:17.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InvoiceService.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\InvoiceService.cs",
-              "RelativeDocumentMoniker": "PetShop.Infrastructure\\Services\\InvoiceService.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\InvoiceService.cs",
-              "RelativeToolTip": "PetShop.Infrastructure\\Services\\InvoiceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:09:38.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SalesSelectorService.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\SalesSelectorService.cs",
-              "RelativeDocumentMoniker": "PetShop.Infrastructure\\Services\\SalesSelectorService.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\SalesSelectorService.cs",
-              "RelativeToolTip": "PetShop.Infrastructure\\Services\\SalesSelectorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:03:42.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SellController.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Api\\Controllers\\SellController.cs",
-              "RelativeDocumentMoniker": "PetShop.Api\\Controllers\\SellController.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Api\\Controllers\\SellController.cs",
-              "RelativeToolTip": "PetShop.Api\\Controllers\\SellController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:48:01.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InfrastructureServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "RelativeDocumentMoniker": "PetShop.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "RelativeToolTip": "PetShop.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:59:24.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InvoiceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Repositories\\InvoiceRepository.cs",
-              "RelativeDocumentMoniker": "PetShop.Infrastructure\\Repositories\\InvoiceRepository.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Repositories\\InvoiceRepository.cs",
-              "RelativeToolTip": "PetShop.Infrastructure\\Repositories\\InvoiceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:07:29.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DaySalesService.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\Sales\\DaySalesService.cs",
-              "RelativeDocumentMoniker": "PetShop.Infrastructure\\Services\\Sales\\DaySalesService.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\Sales\\DaySalesService.cs",
-              "RelativeToolTip": "PetShop.Infrastructure\\Services\\Sales\\DaySalesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:59:35.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NightSalesService.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\Sales\\NightSalesService.cs",
-              "RelativeDocumentMoniker": "PetShop.Infrastructure\\Services\\Sales\\NightSalesService.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\Sales\\NightSalesService.cs",
-              "RelativeToolTip": "PetShop.Infrastructure\\Services\\Sales\\NightSalesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:02:37.016Z",
+              "WhenOpened": "2025-12-05T10:03:15.985Z",
               "EditorCaption": ""
             }
           ]

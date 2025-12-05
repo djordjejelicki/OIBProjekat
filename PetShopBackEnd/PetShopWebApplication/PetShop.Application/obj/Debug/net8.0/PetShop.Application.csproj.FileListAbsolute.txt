@@ -13,3 +13,4 @@ C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetSho
 C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Application\obj\Debug\net8.0\refint\PetShop.Application.dll
 C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Application\obj\Debug\net8.0\PetShop.Application.pdb
 C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Application\obj\Debug\net8.0\ref\PetShop.Application.dll
+C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Application\obj\Debug\net8.0\PetShop.Application.sourcelink.json

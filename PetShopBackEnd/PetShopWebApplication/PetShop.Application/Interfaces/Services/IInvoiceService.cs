@@ -11,5 +11,6 @@ namespace PetShop.Application.Interfaces.Services
     {
         Invoice CreateInvoice(User seller, Pet pet, decimal finalPrice);
         IEnumerable<Invoice> GetAll();
+        Invoice GetById(Guid id);
     }
 }

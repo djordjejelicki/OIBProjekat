@@ -1,2 +1,34 @@
 [Info] 2025-12-04 15:07:58 - Pet sold: Bernadinac mile by Default Seller. Final price: 1275.00
 [Info] 2025-12-04 15:21:13 - Pet sold: Misa labrador by seller. Final price: 2125.00
+[Info] 2025-12-05 11:37:18 - User successfully logged in: manager
+[Info] 2025-12-05 11:38:21 - Pet added successfully: labud pavle (Mammal)
+[Info] 2025-12-05 11:38:46 - All pets requested by Manager.
+[Info] 2025-12-05 11:39:13 - Invoice list requested.
+[Error] 2025-12-05 11:39:28 - Login failed — user not found: managereee
+[Info] 2025-12-05 11:39:46 - User successfully logged in: seller
+[Info] 2025-12-05 11:40:25 - Available pets requested by Seller.
+[Info] 2025-12-05 11:40:50 - Invoice created for pet labud pavle, seller: seller, total price: 4250.00
+[Info] 2025-12-05 11:40:50 - Pet sold: labud pavle by seller. Final price: 4250.00
+[Info] 2025-12-05 11:41:07 - Available pets requested by Seller.
+[Info] 2025-12-05 13:21:39 - User successfully logged in: manager
+[Info] 2025-12-05 13:22:53 - User successfully logged in: manager
+[Error] 2025-12-05 13:26:10 - Login failed — user not found: manager11
+[Error] 2025-12-05 13:26:28 - Login failed — wrong password for user: manager
+[Info] 2025-12-05 13:26:33 - User successfully logged in: manager
+[Info] 2025-12-05 13:26:50 - User successfully logged in: manager
+[Info] 2025-12-05 13:44:57 - User successfully logged in: manager
+[Info] 2025-12-05 13:48:57 - User successfully logged in: manager
+[Info] 2025-12-05 13:50:12 - User successfully logged in: manager
+[Info] 2025-12-05 13:52:10 - User successfully logged in: manager
+[Info] 2025-12-05 13:53:11 - User successfully logged in: manager
+[Info] 2025-12-05 14:41:40 - User successfully logged in: manager
+[Info] 2025-12-05 14:50:54 - User successfully logged in: manager
+[Info] 2025-12-05 14:52:52 - User successfully logged in: manager
+[Info] 2025-12-05 14:58:46 - User successfully logged in: manager
+[Error] 2025-12-05 15:08:18 - Login failed — user not found: 
+[Info] 2025-12-05 15:08:44 - User successfully logged in: seller
+[Info] 2025-12-05 15:09:35 - User successfully logged in: manager
+[Info] 2025-12-05 15:20:29 - User successfully logged in: manager
+[Info] 2025-12-05 15:20:51 - User successfully logged in: manager
+[Info] 2025-12-05 15:25:08 - User successfully logged in: seller
+[Info] 2025-12-05 15:25:35 - User successfully logged in: manager

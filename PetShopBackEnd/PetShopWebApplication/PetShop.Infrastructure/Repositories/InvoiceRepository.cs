@@ -23,6 +23,9 @@ namespace PetShop.Infrastructure.Repositories
            return _context.Invoices.ToList();
         }
 
-       
+        public Invoice GetById(Guid id)
+        {
+            return _context.Invoices.FirstOrDefault(i => i.Id == id);
+        }
     }
 }

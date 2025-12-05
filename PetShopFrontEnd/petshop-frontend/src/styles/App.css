@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Layout wrapper */
+.app-container {
+    padding: 20px;
+}
