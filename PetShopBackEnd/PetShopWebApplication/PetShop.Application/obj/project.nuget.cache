@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "D7lmg8+QK30=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Application\\PetShop.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Djordje\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

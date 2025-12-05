@@ -1,0 +1,2 @@
+[Info] 2025-12-04 15:07:58 - Pet sold: Bernadinac mile by Default Seller. Final price: 1275.00
+[Info] 2025-12-04 15:21:13 - Pet sold: Misa labrador by seller. Final price: 2125.00
