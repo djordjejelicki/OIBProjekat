@@ -1,0 +1,52 @@
+.pets-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.pets-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.pets-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.pets-table th {
+    background: #f0f3f7;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #dbe1e8;
+}
+
+.pets-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.pets-table tr:hover {
+    background: #f7faff;
+}
+
+.sold {
+    color: #b71c1c;
+    font-weight: bold;
+}
+
+.available {
+    color: #1e7e34;
+    font-weight: bold;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}

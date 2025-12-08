@@ -22,7 +22,7 @@ export default function ManagerDashboard(){
             <div className="manager-buttons">
                 <Link to="/manager/add-pet" className="manager-btn">Add New Pet</Link>
                 <Link to="/manager/pets" className="manager-btn">View All Pets</Link>
-                <Link to="/manager/inovices" className="manager-btn">View Invoices</Link>
+                <Link to="/manager/invoices" className="manager-btn">View Invoices</Link>
             </div>
         </div>
     );

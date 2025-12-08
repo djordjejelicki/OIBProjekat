@@ -1,32 +1,31 @@
+import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../auth/AuthContext";
-import { useNavigate } from "react-router-dom";
+import "../styles/SellerDashboard.css";
 
-export default function SellerDashboar(){
+export default function SellerDashboard() {
     const {logout} = useContext(AuthContext);
     const navigate = useNavigate();
-    
-    return (
-        <div style={{ padding: 40 }}>
-            <h2>Seller Dashboard</h2>
 
-            <button
-                onClick={() => {
-                    logout();
-                    navigate("/login");
-                }}
-                style={{
-                    background: "#e74c3c",
-                    color: "white",
-                    border: "none",
-                    padding: "8px 18px",
-                    borderRadius: "6px",
-                    marginTop: "20px",
-                    cursor: "pointer"
-                }}
-            >
-                Logout
-            </button>
+    const handleLogout = () => {
+        logout();
+        navigate("/login");
+    };
+
+    return(
+        <div className="seller-container">
+            <div className="top-bar-seller">
+                <h2 className="seller-title">Seller Dashboard</h2>
+                <button className="logout-btn-seller" onClick={handleLogout}>
+                    Logout
+                </button>
+            </div>
+
+            <div className="seller-buttons">
+                <Link to="/seller/pets" className="seller-btn">
+                    View Available Pets
+                </Link>
+            </div>
         </div>
     );
 }

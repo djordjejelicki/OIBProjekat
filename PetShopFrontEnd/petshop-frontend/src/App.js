@@ -5,9 +5,10 @@ import ProtectedRoute from "./auth/ProtectedRoute";
 import LoginPage from "./pages/LoginPage";
 import ManagerDashboard from "./pages/ManagerDashboard";
 import SellerDashboard from "./pages/SellerDashboard";
+import SellerPetsPage from "./pages/SellerPetsPage";
 import AddPetPage from "./pages/AddPetPage";
 import AllPetsPage from "./pages/AllPetsPage";
-import InvoicesPage from "./pages/InvoicePage";
+import InvoicePage from "./pages/InvoicePage";
 import "./styles/App.css";
 
 function App() {
@@ -35,12 +36,17 @@ function App() {
             }/>
             <Route path="/manager/invoices" element={
               <ProtectedRoute>
-                  <InvoicesPage />
+                  <InvoicePage />
               </ProtectedRoute>
             }/>
             <Route path="/seller" element={
               <ProtectedRoute>
                 <SellerDashboard/>
+              </ProtectedRoute>
+            }/>
+            <Route path="/seller/pets" element={
+              <ProtectedRoute>
+                <SellerPetsPage/>
               </ProtectedRoute>
             }/>
           </Routes>

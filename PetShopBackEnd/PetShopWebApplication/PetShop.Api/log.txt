@@ -32,3 +32,35 @@
 [Info] 2025-12-05 15:20:51 - User successfully logged in: manager
 [Info] 2025-12-05 15:25:08 - User successfully logged in: seller
 [Info] 2025-12-05 15:25:35 - User successfully logged in: manager
+[Info] 2025-12-08 11:03:45 - User successfully logged in: manager
+[Info] 2025-12-08 11:12:59 - Pet added successfully: zmija gile (Reptile)
+[Info] 2025-12-08 11:14:31 - Pet added successfully: pacov mata (Rodent)
+[Info] 2025-12-08 11:43:30 - User successfully logged in: manager
+[Info] 2025-12-08 11:49:25 - User successfully logged in: manager
+[Info] 2025-12-08 11:49:28 - All pets requested by Manager.
+[Info] 2025-12-08 11:49:29 - All pets requested by Manager.
+[Info] 2025-12-08 11:50:05 - All pets requested by Manager.
+[Info] 2025-12-08 11:50:05 - All pets requested by Manager.
+[Info] 2025-12-08 12:17:55 - User successfully logged in: manager
+[Info] 2025-12-08 12:18:09 - All pets requested by Manager.
+[Info] 2025-12-08 12:18:09 - All pets requested by Manager.
+[Info] 2025-12-08 12:21:18 - Invoice list requested.
+[Info] 2025-12-08 12:21:18 - Invoice list requested.
+[Info] 2025-12-08 12:21:45 - Invoice list requested.
+[Info] 2025-12-08 12:21:45 - Invoice list requested.
+[Info] 2025-12-08 13:20:52 - User successfully logged in: seller
+[Info] 2025-12-08 13:21:04 - User successfully logged in: seller
+[Info] 2025-12-08 13:29:07 - User successfully logged in: seller
+[Info] 2025-12-08 13:30:01 - User successfully logged in: seller
+[Info] 2025-12-08 13:36:17 - User successfully logged in: seller
+[Info] 2025-12-08 13:40:53 - User successfully logged in: seller
+[Info] 2025-12-08 13:40:55 - Available pets requested by Seller.
+[Info] 2025-12-08 13:40:55 - Available pets requested by Seller.
+[Info] 2025-12-08 13:41:02 - Invoice created for pet zmija gile, seller: seller, total price: 3910.00
+[Info] 2025-12-08 13:41:02 - Pet sold: zmija gile by seller. Final price: 3910.00
+[Info] 2025-12-08 13:41:04 - Available pets requested by Seller.
+[Info] 2025-12-08 13:41:18 - User successfully logged in: manager
+[Info] 2025-12-08 13:41:23 - All pets requested by Manager.
+[Info] 2025-12-08 13:41:23 - All pets requested by Manager.
+[Info] 2025-12-08 13:41:43 - Invoice list requested.
+[Info] 2025-12-08 13:41:43 - Invoice list requested.

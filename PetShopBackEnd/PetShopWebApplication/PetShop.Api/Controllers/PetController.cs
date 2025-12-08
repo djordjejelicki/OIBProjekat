@@ -34,14 +34,14 @@ namespace PetShop.Api.Controllers
             return Ok("Pet added successfully");
         }
 
-        [HttpGet]
+        [HttpGet("all")]
         [Authorize(Roles = "Manager")]
         public IActionResult GetAll() 
         {
             return Ok(_petService.GetAllPets());
         }
 
-        [HttpGet("avilable")]
+        [HttpGet("available")]
         [Authorize(Roles = "Seller")]
         public IActionResult GetAvailable() 
         {

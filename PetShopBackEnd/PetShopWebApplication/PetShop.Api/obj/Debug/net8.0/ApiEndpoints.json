@@ -17,16 +17,6 @@
   },
   {
     "ContainingType": "PetShop.Api.Controllers.InvoiceController",
-    "Method": "GetAll",
-    "RelativePath": "api/Invoice",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PetShop.Api.Controllers.InvoiceController",
     "Method": "GetById",
     "RelativePath": "api/Invoice/{id}",
     "HttpMethod": "GET",
@@ -39,6 +29,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetShop.Api.Controllers.InvoiceController",
+    "Method": "GetAll",
+    "RelativePath": "api/Invoice/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -60,7 +60,7 @@
   {
     "ContainingType": "PetShop.Api.Controllers.PetController",
     "Method": "GetAll",
-    "RelativePath": "api/Pet",
+    "RelativePath": "api/Pet/all",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -70,7 +70,7 @@
   {
     "ContainingType": "PetShop.Api.Controllers.PetController",
     "Method": "GetAvailable",
-    "RelativePath": "api/Pet/avilable",
+    "RelativePath": "api/Pet/available",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

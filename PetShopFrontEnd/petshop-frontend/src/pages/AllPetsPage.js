@@ -1,3 +1,63 @@
-export default function AllPetsPage() {
-    return <h1>All Pets Page</h1>;
+import { useEffect, useState } from "react";
+import petApi from "../api/petApi";
+import BackButton from "../components/BackButton";
+import "../styles/AllPetsPage.css";
+
+export default function AllPetsPage(){
+    const [pets, setPets] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        loadPets();
+    },[]);
+
+    const loadPets = async () => {
+        try{
+            const res = await petApi.getAllPets();
+            setPets(res.data);
+        }catch (err){
+            console.error("Error loading pets:",err);
+        }finally{
+            setLoading(false);
+        }
+    };
+
+    if(loading) return <div className="loading">Loading pets...</div>;
+
+    return(
+        <div className="pets-container">
+            <h2>All Pets</h2>
+            <BackButton to="/manager" label="← Back to Menu" />
+
+            <table className="pets-table">
+                <thead>
+                    <tr>
+                        <th>Latin Name</th>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Price (€)</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {pets.map((pet) => (
+                        <tr key={pet.id}>
+                            <td>{pet.latinName}</td>
+                            <td>{pet.name}</td>
+                            <td>
+                                {pet.type === 0 && "Mammal"}
+                                {pet.type === 1 && "Reptile"}
+                                {pet.type === 2 && "Rodent"}
+                            </td>
+                            <td>{pet.price}</td>
+                            <td className={pet.sold ? "sold" : "available"}>
+                                {pet.sold ? "Sold" : "Available"}
+                            </td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+    );
 }

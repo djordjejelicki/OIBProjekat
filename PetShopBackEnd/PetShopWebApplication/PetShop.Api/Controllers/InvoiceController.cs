@@ -15,7 +15,7 @@ namespace PetShop.Api.Controllers
             _invoiceService = invoiceService;
         }
 
-        [HttpGet]
+        [HttpGet("all")]
         [Authorize(Roles = "Manager")]
         public IActionResult GetAll()
         {

@@ -36,7 +36,7 @@
         }
       }
     },
-    "/api/Invoice": {
+    "/api/Invoice/all": {
       "get": {
         "tags": [
           "Invoice"
@@ -100,7 +100,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Pet/all": {
       "get": {
         "tags": [
           "Pet"
@@ -112,7 +114,7 @@
         }
       }
     },
-    "/api/Pet/avilable": {
+    "/api/Pet/available": {
       "get": {
         "tags": [
           "Pet"
