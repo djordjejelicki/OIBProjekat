@@ -54,3 +54,23 @@
     padding: 30px;
     font-size: 18px;
 }
+
+.pet-thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.details-btn {
+    padding: 6px 12px;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.details-btn:hover {
+    background-color: #125ea5;
+}

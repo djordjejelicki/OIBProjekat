@@ -38,5 +38,10 @@ namespace PetShop.Infrastructure.Services
             _loggerService.Log(LogLevel.Info, "Available pets requested by Seller.");
             return _petRepository.GetUnsoldPets();
         }
+
+        public Pet GetById(Guid id)
+        {
+            return _petRepository.GetById(id);
+        }
     }
 }

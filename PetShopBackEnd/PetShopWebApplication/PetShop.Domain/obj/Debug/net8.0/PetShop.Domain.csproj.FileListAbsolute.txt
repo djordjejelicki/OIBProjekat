@@ -9,3 +9,4 @@ C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetSho
 C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Domain\obj\Debug\net8.0\refint\PetShop.Domain.dll
 C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Domain\obj\Debug\net8.0\PetShop.Domain.pdb
 C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Domain\obj\Debug\net8.0\ref\PetShop.Domain.dll
+C:\Users\Djordje\Desktop\OIBProjekat\PetShopBackEnd\PetShopWebApplication\PetShop.Domain\obj\Debug\net8.0\PetShop.Domain.sourcelink.json

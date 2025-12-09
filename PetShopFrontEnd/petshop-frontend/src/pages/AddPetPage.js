@@ -9,7 +9,7 @@ export default function AddPetPage(){
     const [type, setType] = useState("0");
     const [price, setPrice] = useState("");
     const [message, setMessage] = useState("");
-    
+    const [imageFile, setImageFile] = useState(null);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -19,15 +19,17 @@ export default function AddPetPage(){
             return;
         }
 
-        const pet = {
-            latinName,
-            name,
-            type: parseInt(type),
-            price: parseFloat(price)
-        };
+       const formData = new FormData();
+       formData.append("latinName",latinName);
+       formData.append("name",name);
+       formData.append("type", type);
+       formData.append("price", price);
+       if(imageFile){
+        formData.append("image", imageFile);
+       }
 
         try{
-            await petApi.addPet(pet);
+            await petApi.addPet(formData);
             setMessage("Pet successfully added!");
             setLatinName("");
             setName("");
@@ -74,6 +76,12 @@ export default function AddPetPage(){
                     value={price}
                     onChange={(e) => {setPrice(e.target.value);
                                       setMessage("");}}
+                />
+                <label>Image</label>
+                <input
+                    type="file"
+                    accept="image/*"
+                    onChange={(e) => setImageFile(e.target.files[0])}
                 />
                 <button type="submit" className="submit-btn">Add Pet</button>
 

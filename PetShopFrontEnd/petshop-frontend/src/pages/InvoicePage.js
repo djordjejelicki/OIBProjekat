@@ -1,16 +1,17 @@
 import { useEffect, useState } from "react";
 import invoiceApi from "../api/invoiceApi";
 import BackButton from "../components/BackButton"
+import { Link } from "react-router-dom";
 import "../styles/InvoicePage.css";
 
 export default function InvoicePage() {
     const [invoices, setInvoices] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
+    useEffect(() => {    
         loadInvoices();
-    },[]);
-
+    }, []);
+    
     const loadInvoices = async () => {
         try{
             const res = await invoiceApi.getAll();
@@ -44,6 +45,11 @@ export default function InvoicePage() {
                             <td>{new Date(inv.dateTime).toLocaleString()}</td>
                             <td>{inv.sellerName}</td>
                             <td>{inv.totalAmount}</td>
+                            <td>
+                                <Link className="details-btn" to={`/manager/invoices/${inv.id}`}>
+                                    View Details
+                                </Link>
+                            </td>
                         </tr>
                     ))}
                 </tbody>

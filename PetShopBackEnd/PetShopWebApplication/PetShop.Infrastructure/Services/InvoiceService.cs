@@ -22,7 +22,8 @@ namespace PetShop.Infrastructure.Services
                 Id = Guid.NewGuid(),
                 SellerName = seller.Username,
                 DateTime = DateTime.Now,
-                TotalAmount = finalPrice
+                TotalAmount = finalPrice,
+                PetId = pet.Id
             };
 
             _invoiceRepository.Add(invoice);

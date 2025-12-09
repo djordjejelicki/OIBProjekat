@@ -1,0 +1,36 @@
+.add-record-container {
+    max-width: 480px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.record-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.record-form input,
+.record-form textarea,
+.record-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.save-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.message-box {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #e3f2fd;
+    border-radius: 6px;
+}

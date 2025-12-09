@@ -50,3 +50,24 @@
     padding: 40px;
     font-size: 20px;
 }
+
+.pet-thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.details-btn {
+    padding: 6px 12px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.details-btn:hover {
+    background-color: #45a049;
+}

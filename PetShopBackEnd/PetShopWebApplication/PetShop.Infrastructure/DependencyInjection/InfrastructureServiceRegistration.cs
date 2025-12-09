@@ -16,11 +16,13 @@ namespace PetShop.Infrastructure.DependencyInjection
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IPetRepository, PetRepository>();
             services.AddScoped<IInvoiceRepository, InvoiceRepository>();
+            services.AddScoped<IHealthRecordRepository, HealthRecordRepository>();
 
             // Services
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IPetService, PetService>();
             services.AddScoped<IInvoiceService, InvoiceService>();
+            services.AddScoped<IHealthRecordService, HealthRecordService>();
 
             // Sales services to be injected by shift (later)
             services.AddScoped<DaySalesService>();

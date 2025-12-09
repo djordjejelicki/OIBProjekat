@@ -28,6 +28,10 @@ namespace PetShop.Api.Controllers
         public IActionResult GetById(Guid id)
         {
             var inovoice = _invoiceService.GetById(id);
+            if (inovoice == null) 
+            {
+                return NotFound();
+            }
             return Ok(inovoice);
         }
     }

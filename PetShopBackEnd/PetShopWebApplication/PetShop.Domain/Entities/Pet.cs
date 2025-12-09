@@ -15,5 +15,6 @@ namespace PetShop.Domain.Entities
         public PetType Type { get; set; }
         public decimal? Price { get; set; }
         public bool Sold { get; set; }
+        public string? ImageUrl { get; set; }
     }
 }

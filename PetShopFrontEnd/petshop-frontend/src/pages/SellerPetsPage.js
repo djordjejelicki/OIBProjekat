@@ -3,6 +3,7 @@ import petApi from "../api/petApi";
 import sellApi from "../api/sellApi";
 import BackButton from "../components/BackButton";
 import "../styles/SellerPetsPage.css";
+import { Link } from "react-router-dom";
 
 export default function SellerPetsPage() {
     console.log("SellerPetsPage mounted");
@@ -51,6 +52,8 @@ export default function SellerPetsPage() {
                         <th>Name</th>
                         <th>Type</th>
                         <th>Price (€)</th>
+                        <th>Details</th>
+                        <th>Image</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -65,6 +68,20 @@ export default function SellerPetsPage() {
                                 {p.type === 2 && "Rodent"}
                             </td>
                             <td>{p.price}</td>
+                            <td>
+                                <Link to={`/pet/${p.id}`} className="details-btn">
+                                    View
+                                </Link>
+                            </td>
+                            <td>
+                                {p.imageUrl && (
+                                    <img
+                                        src={`https://localhost:7071${p.imageUrl}`}
+                                        alt={p.name}
+                                        className="pet-thumbnail"
+                                    />
+                                )}
+                            </td>
                             <td>
                                 <button
                                     className="sell-btn"

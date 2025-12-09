@@ -22,6 +22,39 @@ namespace PetShop.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("PetShop.Domain.Entities.HealthRecord", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("PetId")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("RecordType")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("RecordedBy")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PetId");
+
+                    b.ToTable("HealthRecords");
+                });
+
             modelBuilder.Entity("PetShop.Domain.Entities.Invoice", b =>
                 {
                     b.Property<Guid>("Id")
@@ -30,6 +63,9 @@ namespace PetShop.Infrastructure.Migrations
 
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("timestamp without time zone");
+
+                    b.Property<Guid>("PetId")
+                        .HasColumnType("uuid");
 
                     b.Property<string>("SellerName")
                         .HasColumnType("text");
@@ -47,6 +83,9 @@ namespace PetShop.Infrastructure.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("text");
 
                     b.Property<string>("LatinName")
                         .HasColumnType("text");
@@ -97,7 +136,7 @@ namespace PetShop.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("3d0d51cc-8318-4336-9c79-88c0eddc5be1"),
+                            Id = new Guid("21632c49-2db6-4288-913d-5b3c4760b713"),
                             FirstName = "Main",
                             LastName = "Manager",
                             Password = "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
@@ -106,13 +145,24 @@ namespace PetShop.Infrastructure.Migrations
                         },
                         new
                         {
-                            Id = new Guid("ad35b536-5f4a-4ea6-a338-f0402582f903"),
+                            Id = new Guid("95e89e79-8e85-42ac-84e4-0af0c4d71069"),
                             FirstName = "Default",
                             LastName = "Seller",
                             Password = "2a76110d06bcc4fd437337b984131cfa82db9f792e3e2340acef9f3066b264e0",
                             Role = 0,
                             Username = "seller"
                         });
+                });
+
+            modelBuilder.Entity("PetShop.Domain.Entities.HealthRecord", b =>
+                {
+                    b.HasOne("PetShop.Domain.Entities.Pet", "Pet")
+                        .WithMany()
+                        .HasForeignKey("PetId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Pet");
                 });
 #pragma warning restore 612, 618
         }

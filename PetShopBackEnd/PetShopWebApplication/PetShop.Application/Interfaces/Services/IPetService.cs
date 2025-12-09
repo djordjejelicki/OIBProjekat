@@ -12,5 +12,6 @@ namespace PetShop.Application.Interfaces.Services
         IEnumerable<Pet> GetAllPets();
         IEnumerable<Pet> GetAvailblePets();
         void AddPet(Pet pet);
+        Pet GetById(Guid id);
     }
 }

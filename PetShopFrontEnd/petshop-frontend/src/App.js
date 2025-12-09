@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider } from "./auth/AuthProvider";
 import ProtectedRoute from "./auth/ProtectedRoute";
-
 import LoginPage from "./pages/LoginPage";
 import ManagerDashboard from "./pages/ManagerDashboard";
 import SellerDashboard from "./pages/SellerDashboard";
@@ -9,6 +8,9 @@ import SellerPetsPage from "./pages/SellerPetsPage";
 import AddPetPage from "./pages/AddPetPage";
 import AllPetsPage from "./pages/AllPetsPage";
 import InvoicePage from "./pages/InvoicePage";
+import InvoiceDetailsPage from "./pages/InvoiceDetailsPage";
+import PetDetailsPage from "./pages/PetDetailsPage";
+import AddHealthRecordPage from "./pages/AddHealthRecordPage";
 import "./styles/App.css";
 
 function App() {
@@ -39,6 +41,11 @@ function App() {
                   <InvoicePage />
               </ProtectedRoute>
             }/>
+            <Route path="/manager/invoices/:id" element={
+              <ProtectedRoute>
+                <InvoiceDetailsPage/>
+              </ProtectedRoute>
+            }/>
             <Route path="/seller" element={
               <ProtectedRoute>
                 <SellerDashboard/>
@@ -47,6 +54,16 @@ function App() {
             <Route path="/seller/pets" element={
               <ProtectedRoute>
                 <SellerPetsPage/>
+              </ProtectedRoute>
+            }/>
+            <Route path="/pet/:id" element={
+              <ProtectedRoute>
+                <PetDetailsPage />
+              </ProtectedRoute>
+            }/>
+            <Route path="/pet/:id/add-record" element={
+              <ProtectedRoute>
+                <AddHealthRecordPage/>
               </ProtectedRoute>
             }/>
           </Routes>

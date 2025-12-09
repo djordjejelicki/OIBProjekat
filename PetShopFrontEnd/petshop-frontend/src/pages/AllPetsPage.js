@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import petApi from "../api/petApi";
 import BackButton from "../components/BackButton";
 import "../styles/AllPetsPage.css";
+import { Link } from "react-router-dom";
 
 export default function AllPetsPage(){
     const [pets, setPets] = useState([]);
@@ -37,6 +38,8 @@ export default function AllPetsPage(){
                         <th>Type</th>
                         <th>Price (€)</th>
                         <th>Status</th>
+                        <th>Details</th>
+                        <th>Image</th>
                     </tr>
                 </thead>
 
@@ -53,6 +56,20 @@ export default function AllPetsPage(){
                             <td>{pet.price}</td>
                             <td className={pet.sold ? "sold" : "available"}>
                                 {pet.sold ? "Sold" : "Available"}
+                            </td>
+                            <td>
+                               <Link to={`/pet/${pet.id}`} className="details-btn">
+                                    View
+                               </Link>
+                            </td>
+                            <td>
+                                {pet.imageUrl && (
+                                    <img
+                                        src={`https://localhost:7071${pet.imageUrl}`}
+                                        alt={pet.name}
+                                        className="pet-thumbnail"
+                                    />
+                                )}
                             </td>
                         </tr>
                     ))}

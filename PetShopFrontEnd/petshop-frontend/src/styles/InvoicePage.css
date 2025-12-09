@@ -38,3 +38,25 @@
     padding: 40px;
     font-size: 20px;
 }
+
+.details-btn {
+    display: inline-block;
+    padding: 6px 14px;
+    background-color: #4a90e2;   /* svetlo plava */
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+    cursor: pointer;
+}
+
+.details-btn:hover {
+    background-color: #357ac9;   /* tamno plava pri hover-u */
+    transform: translateY(-2px);
+}
+
+.details-btn:active {
+    transform: translateY(0);
+}

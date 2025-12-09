@@ -21,4 +21,8 @@
     <ProjectReference Include="..\PetShop.Infrastructure\PetShop.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\pets\" />
+  </ItemGroup>
+
 </Project>

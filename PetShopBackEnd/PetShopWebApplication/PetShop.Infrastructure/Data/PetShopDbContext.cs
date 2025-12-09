@@ -14,6 +14,7 @@ namespace PetShop.Infrastructure.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Pet> Pets { get; set; }
         public DbSet<Invoice> Invoices { get; set; }
+        public DbSet<HealthRecord> HealthRecords { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

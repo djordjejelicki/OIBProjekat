@@ -12,5 +12,6 @@ namespace PetShop.Domain.Entities
         public string? SellerName { get; set; }
         public DateTime DateTime { get; set; }
         public decimal TotalAmount { get; set; }
+        public Guid PetId { get; set; }
     }
 }

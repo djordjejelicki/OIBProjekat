@@ -4,6 +4,7 @@ import {jwtDecode} from "jwt-decode";
 
 export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(undefined);
+    const [loading, setLoading] = useState(true);
 
     // Ključna polja iz .NET tokena
     const CLAIM_NAME = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name";
@@ -30,6 +31,8 @@ export const AuthProvider = ({ children }) => {
         } else {
             setUser(null);
         }
+
+        setLoading(false);
     }, []);
 
     const login = (token) => {
@@ -48,7 +51,7 @@ export const AuthProvider = ({ children }) => {
     };
 
     return (
-        <AuthContext.Provider value={{ user, login, logout }}>
+        <AuthContext.Provider value={{ user, login, logout, loading }}>
             {children}
         </AuthContext.Provider>
     );
