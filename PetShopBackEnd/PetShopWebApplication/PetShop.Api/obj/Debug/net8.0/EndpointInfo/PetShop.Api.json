@@ -282,14 +282,13 @@
       },
       "HealthRecordType": {
         "enum": [
-          0,
-          1,
-          2,
-          3,
-          4
+          "Checkup",
+          "Vaccination",
+          "Surgery",
+          "Therapy",
+          "Note"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       },
       "LoginDTO": {
         "type": "object",
@@ -307,12 +306,11 @@
       },
       "PetType": {
         "enum": [
-          0,
-          1,
-          2
+          "Mammal",
+          "Reptile",
+          "Rodent"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       }
     },
     "securitySchemes": {

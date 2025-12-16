@@ -9,6 +9,7 @@ export default function AddPetPage(){
     const [type, setType] = useState("0");
     const [price, setPrice] = useState("");
     const [message, setMessage] = useState("");
+    const [messageType, setMessageType] = useState("");
     const [imageFile, setImageFile] = useState(null);
 
     const handleSubmit = async (e) => {
@@ -16,6 +17,7 @@ export default function AddPetPage(){
 
         if(!latinName || !name || !price){
             setMessage("All fields are required");
+            setMessageType("error");
             return;
         }
 
@@ -31,12 +33,26 @@ export default function AddPetPage(){
         try{
             await petApi.addPet(formData);
             setMessage("Pet successfully added!");
+            setMessageType("success");
             setLatinName("");
             setName("");
             setPrice("");
             setType("0");
         }catch(err){
-            setMessage("Error: Unable to add pet.");
+            if (err.response && err.response.data) 
+            {
+                setMessage("Error: " + err.response.data);
+            } 
+            else 
+            {
+                setMessage("Unexpected error occurred.");
+            }
+
+            setMessageType("error");
+            setLatinName("");
+            setName("");
+            setPrice("");
+            setType("0");
         }
     };
 
@@ -45,7 +61,7 @@ export default function AddPetPage(){
             <h2>Add New Pet</h2>
             <BackButton to="/manager" label="← Back to Menu"/>
 
-            {message && <div className="message-box">{message}</div>}
+            {message && <div className={`message-box ${messageType}`}>{message}</div>}
 
             <form onSubmit={handleSubmit} className="pet-form">
                 <label>Latin Name</label>
@@ -77,7 +93,7 @@ export default function AddPetPage(){
                     onChange={(e) => {setPrice(e.target.value);
                                       setMessage("");}}
                 />
-                <label>Image</label>
+                <label>Image (Optional)</label>
                 <input
                     type="file"
                     accept="image/*"

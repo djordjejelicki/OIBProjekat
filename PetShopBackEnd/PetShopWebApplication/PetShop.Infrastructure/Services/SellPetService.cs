@@ -26,13 +26,13 @@ namespace PetShop.Infrastructure.Services
             if (pet == null)
             {
                 _logger.Log(LogLevel.Error, $"Attempt to sell non-existing pet. PetId: {petId}");
-                throw new Exception("Pet not found.");
+                throw new InvalidOperationException("Pet not found.");
             }
 
             if (pet.Sold)
             {
                 _logger.Log(LogLevel.Warning, $"Attempt to resell pet {pet.Name} which is already sold.");
-                throw new Exception("Pet is already sold.");
+                throw new InvalidOperationException("Pet is already sold.");
             }
 
             var salesService = _salesSelectorService.GetCurrentService();

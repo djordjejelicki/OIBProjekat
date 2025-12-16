@@ -20,7 +20,7 @@ namespace PetShop.Infrastructure.Services
             if (total >= 10)
             {
                 _loggerService.Log(LogLevel.Warning, "Attempt to add pet when store already has 10 pets.");
-                throw new Exception("Max 10 pets allowed in shop.");
+                throw new InvalidOperationException("Max 10 pets allowed in shop.");
             }
 
             _petRepository.Add(pet);
@@ -41,6 +41,7 @@ namespace PetShop.Infrastructure.Services
 
         public Pet GetById(Guid id)
         {
+            _loggerService.Log(LogLevel.Info, $"Regusted pet by id: {id}");
             return _petRepository.GetById(id);
         }
     }

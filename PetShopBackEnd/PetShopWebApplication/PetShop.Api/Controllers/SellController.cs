@@ -21,19 +21,29 @@ namespace PetShop.Api.Controllers
         [Authorize(Roles = "Seller")]
         public IActionResult Sell(Guid petId)
         {
-            var sellerId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            var username = User.FindFirstValue(ClaimTypes.Name);
-          
-
-            var seller = new User
+            try
             {
-                Id = sellerId,
-                Username = username,
-                Role = RoleType.Seller
-            };
+                var sellerId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                var username = User.FindFirstValue(ClaimTypes.Name);
 
-            var invoice = _sellPetService.SellPet(petId, seller);
-            return Ok(invoice);
+                var seller = new User
+                {
+                    Id = sellerId,
+                    Username = username,
+                    Role = RoleType.Seller
+                };
+
+                var invoice = _sellPetService.SellPet(petId, seller);
+                return Ok(invoice);
+            }
+            catch(InvalidOperationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Unexpected server error during sale.");
+            }          
         }
     }
 }

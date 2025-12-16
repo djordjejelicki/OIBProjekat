@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using PetShop.Api.DTOs;
 using PetShop.Application.Interfaces.Services;
 using PetShop.Domain.Entities;
-using PetShop.Domain.Enums;
 
 namespace PetShop.Api.Controllers
 {
@@ -23,33 +22,44 @@ namespace PetShop.Api.Controllers
         [Authorize(Roles = "Manager")]
         public async Task<IActionResult> Add([FromForm] CreatePetRequest request)
         {
-            var pet = new Pet
+            try
             {
-                Id = Guid.NewGuid(),
-                Name = request.Name,
-                LatinName = request.LatinName,
-                Price = request.Price,
-                Sold = false,
-                Type = request.Type,
-                ImageUrl = "/images/default.png"
-            };
-
-            if(request.Image != null && request.Image.Length > 0)
-            {
-                var extension = Path.GetExtension(request.Image.FileName).ToLower();
-                var fileName = $"{pet.Id}{extension}";
-                var imagePath = Path.Combine(_env.WebRootPath, "images", "pets", fileName);
-
-                using (var stream = new FileStream(imagePath, FileMode.Create))
+                var pet = new Pet
                 {
-                    await request.Image.CopyToAsync(stream);
+                    Id = Guid.NewGuid(),
+                    Name = request.Name,
+                    LatinName = request.LatinName,
+                    Price = request.Price,
+                    Sold = false,
+                    Type = request.Type,
+                    ImageUrl = "/images/default.png"
+                };
+
+                if(request.Image != null && request.Image.Length > 0)
+                {
+                    var extension = Path.GetExtension(request.Image.FileName).ToLower();
+                    var fileName = $"{pet.Id}{extension}";
+                    var imagePath = Path.Combine(_env.WebRootPath, "images", "pets", fileName);
+
+                    using (var stream = new FileStream(imagePath, FileMode.Create))
+                    {
+                        await request.Image.CopyToAsync(stream);
+                    }
+
+                    pet.ImageUrl = $"/images/pets/{fileName}";
                 }
 
-                pet.ImageUrl = $"/images/pets/{fileName}";
+                _petService.AddPet(pet);
+                return Ok("Pet added successfully");
             }
-
-            _petService.AddPet(pet);
-            return Ok("Pet added successfully");
+            catch(InvalidOperationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Unexpected server error while adding pet.");
+            }
         }
 
         [HttpGet("all")]

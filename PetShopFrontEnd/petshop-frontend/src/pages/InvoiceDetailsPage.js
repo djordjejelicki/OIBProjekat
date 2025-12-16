@@ -47,9 +47,7 @@ export default function InvoiceDetailsPage(){
                 <p><strong>Name:</strong> {pet.name}</p>
                 <p><strong>Latin Name:</strong> {pet.latinName}</p>
                 <p><strong>Type:</strong> 
-                    {pet.type === 0 && "Mammal"}
-                    {pet.type === 1 && "Reptile"}
-                    {pet.type === 2 && "Rodent"}
+                    {pet.type}
                 </p>
                 <p><strong>Original Price:</strong> €{pet.price}</p>
             </div>

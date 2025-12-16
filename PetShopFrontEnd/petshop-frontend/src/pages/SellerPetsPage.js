@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import petApi from "../api/petApi";
 import sellApi from "../api/sellApi";
 import BackButton from "../components/BackButton";
+import InvoiceModal from "../components/InvoiceModal";
 import "../styles/SellerPetsPage.css";
 import { Link } from "react-router-dom";
 
@@ -9,6 +10,8 @@ export default function SellerPetsPage() {
     console.log("SellerPetsPage mounted");
     const [pets, setPets] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [soldInvoice, setSoldInvoice] = useState(null);
+    const [showInvoiceModal, setShowInvoiceModal] = useState(false);
 
     useEffect(() => {
         loadAvailable();
@@ -17,8 +20,6 @@ export default function SellerPetsPage() {
     const loadAvailable = async () => {
         try{
             const res = await petApi.getAvailablePets();
-            console.log("API RESPONSE:", res);
-            console.log("DATA:", res.data);
             setPets(res.data);
         }catch(err){
             console.error("Error loading availble pets:", err);
@@ -27,10 +28,18 @@ export default function SellerPetsPage() {
         }
     };
 
-    const handleSell = async (id) => {
+    const handleSell = async (id,petName) => {
+        
+        const confirmed = window.confirm(
+            `Are you sure you want to sell "${petName}"?`
+        );
+        
+        if (!confirmed) return;
+
         try{
-            await sellApi.sellPet(id);
-            alert("Pet sold successfully!");
+            const res = await sellApi.sellPet(id);
+            setSoldInvoice(res.data);
+            setShowInvoiceModal(true);
             await loadAvailable();
         }catch(err){
             console.error("Error selling pet:", err);
@@ -63,9 +72,7 @@ export default function SellerPetsPage() {
                             <td>{p.latinName}</td>
                             <td>{p.name}</td>
                             <td>
-                                {p.type === 0 && "Mammal"}
-                                {p.type === 1 && "Reptile"}
-                                {p.type === 2 && "Rodent"}
+                               {p.type}
                             </td>
                             <td>{p.price}</td>
                             <td>
@@ -85,7 +92,7 @@ export default function SellerPetsPage() {
                             <td>
                                 <button
                                     className="sell-btn"
-                                    onClick={() => handleSell(p.id)}
+                                    onClick={() => handleSell(p.id,p.name)}
                                 >
                                     Sell
                                 </button>
@@ -94,6 +101,15 @@ export default function SellerPetsPage() {
                     ))}
                 </tbody>
             </table>
+        {showInvoiceModal && (
+            <InvoiceModal
+            invoice={soldInvoice}
+            onClose={() => {
+                setShowInvoiceModal(false);
+                setSoldInvoice(null);
+            }}
+            />
+        )}
         </div>
     );
 }

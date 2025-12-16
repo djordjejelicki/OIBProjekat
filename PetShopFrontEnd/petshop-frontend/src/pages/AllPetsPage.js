@@ -49,9 +49,7 @@ export default function AllPetsPage(){
                             <td>{pet.latinName}</td>
                             <td>{pet.name}</td>
                             <td>
-                                {pet.type === 0 && "Mammal"}
-                                {pet.type === 1 && "Reptile"}
-                                {pet.type === 2 && "Rodent"}
+                               {pet.type}
                             </td>
                             <td>{pet.price}</td>
                             <td className={pet.sold ? "sold" : "available"}>
