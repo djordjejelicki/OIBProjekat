@@ -42,7 +42,7 @@ namespace PetShop.Api.Controllers
                     RecordType = dto.RecordType,
                     Description = dto.Description,
                     Notes = dto.Notes,
-                    RecordedBy = User.Identity?.Name ?? "Uknown"
+                    RecordedBy = User.Identity?.Name ?? "Unknown"
                 };
 
                 _logger.Log(LogLevel.Info,

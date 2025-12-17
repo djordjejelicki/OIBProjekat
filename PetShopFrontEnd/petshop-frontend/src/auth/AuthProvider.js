@@ -6,7 +6,7 @@ export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(undefined);
     const [loading, setLoading] = useState(true);
 
-    // Ključna polja iz .NET tokena
+    
     const CLAIM_NAME = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name";
     const CLAIM_ROLE = "http://schemas.microsoft.com/ws/2008/06/identity/claims/role";
 

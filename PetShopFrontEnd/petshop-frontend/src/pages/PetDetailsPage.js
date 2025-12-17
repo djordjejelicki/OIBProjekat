@@ -12,24 +12,46 @@ export default function PetDetailsPage(){
 
     const [pet, setPet] = useState(null);
     const [records, setRecords] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState("");
     const backRoute = user?.role === "Manager" ? "/manager/pets" : "/seller/pets";
 
     useEffect(() =>{
         const loadPet = async () => {
-            const res = await petApi.getPetById(id);
-            setPet(res.data);
+            try{
+                const res = await petApi.getPetById(id);
+                setPet(res.data);
+            }catch(err){
+                console.error("Failed to load pet:", err);
+                setError("Error loading pet details");               
+            }finally{
+                setLoading(false);
+            }
         }
     
         const loadRecords = async () => {
-            const res = await healthRecordApi.getByPetId(id);
-            setRecords(res.data);
+            try{
+                const res = await healthRecordApi.getByPetId(id);
+                setRecords(res.data);
+            }catch(err){
+                console.error("Failed to load health records: ", err);
+                setRecords([]);
+            }
         }
         loadPet();
         loadRecords();
     },[id]);
 
-    if(!pet) return <div>Loading...</div>;
-    console.log("User in PetDetails:", user);
+    if(loading) return <div>Loading...</div>;
+    if(error){
+        return(
+            <div className="error-box">
+                <p>{error}</p>
+                <BackButton to={backRoute} label="← Back" />
+            </div>
+        );
+    }
+    
     return(
        <div className="pet-details-container">
             <h2>{pet.name} — Details</h2>

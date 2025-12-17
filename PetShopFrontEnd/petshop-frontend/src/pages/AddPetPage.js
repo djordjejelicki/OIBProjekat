@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import petApi from "../api/petApi";
 import BackButton from "../components/BackButton";
 import "../styles/AddPetPage.css";
@@ -11,6 +11,7 @@ export default function AddPetPage(){
     const [message, setMessage] = useState("");
     const [messageType, setMessageType] = useState("");
     const [imageFile, setImageFile] = useState(null);
+    const fileInputRef = useRef(null);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -38,6 +39,10 @@ export default function AddPetPage(){
             setName("");
             setPrice("");
             setType("0");
+            setImageFile(null);
+            if(fileInputRef.current){
+                fileInputRef.current.value = "";
+            }
         }catch(err){
             if (err.response && err.response.data) 
             {
@@ -53,6 +58,10 @@ export default function AddPetPage(){
             setName("");
             setPrice("");
             setType("0");
+            setImageFile(null);
+            if(fileInputRef.current){
+                fileInputRef.current.value = "";
+            }
         }
     };
 
@@ -97,6 +106,7 @@ export default function AddPetPage(){
                 <input
                     type="file"
                     accept="image/*"
+                    ref={fileInputRef}
                     onChange={(e) => setImageFile(e.target.files[0])}
                 />
                 <button type="submit" className="submit-btn">Add Pet</button>

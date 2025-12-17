@@ -16,7 +16,7 @@ export default function InvoiceDetailsPage(){
             try{
                 const invRes = await invoiceApi.getBtId(id);
                 setInvoice(invRes.data);
-        
+                
                 const petRes = await petApi.getPetById(invRes.data.petId);
                 setPet(petRes.data);
             }catch(err){
@@ -28,7 +28,7 @@ export default function InvoiceDetailsPage(){
         loadDetails();
     }, [id]);
 
-
+    
     if(loading) return <div className="loading">Loading...</div>;
 
     return(
@@ -39,7 +39,7 @@ export default function InvoiceDetailsPage(){
 
             <div className="invoice-card">
                 <p><strong>Seller:</strong> {invoice.sellerName}</p>
-                <p><strong>Date:</strong> {new Date(invoice.dateTime).toLocaleString()}</p>
+                <p><strong>Date:</strong>{new Date(invoice.dateTime).toLocaleString()}</p>
                 <p><strong>Total Amount:</strong> €{invoice.totalAmount}</p>
             </div>
 

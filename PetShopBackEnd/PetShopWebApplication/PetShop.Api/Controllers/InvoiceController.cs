@@ -27,12 +27,12 @@ namespace PetShop.Api.Controllers
         [Authorize(Roles = "Manager")]
         public IActionResult GetById(Guid id)
         {
-            var inovoice = _invoiceService.GetById(id);
-            if (inovoice == null) 
+            var invoice = _invoiceService.GetById(id);
+            if (invoice == null) 
             {
                 return NotFound();
             }
-            return Ok(inovoice);
+            return Ok(invoice);
         }
     }
 }

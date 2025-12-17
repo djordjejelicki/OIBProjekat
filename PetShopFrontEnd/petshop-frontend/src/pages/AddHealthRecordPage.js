@@ -8,24 +8,26 @@ export default function AddHealthRecordPage(){
     const { id } = useParams();
     const navigate = useNavigate();
 
-    const [recordType, setRecordType] = useState("");
+    const [recordType, setRecordType] = useState(0);
     const [description, setDescription] = useState("");
     const [notes, setNotes] = useState("");
     const [date, setDate] = useState("");
     const [message, setMessage] = useState("");
+    const [messageType, setMessageType] = useState("");
 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
         if(!date || !description){
             setMessage("Date and description are required.");
+            setMessageType("error");
             return;
         }
 
         const newRecord = {
             petId: id,
             date: date,
-            recordType: parseInt(recordType,10),
+            recordType: recordType,
             description: description,
             notes: notes,
         };
@@ -33,10 +35,14 @@ export default function AddHealthRecordPage(){
         try{
             await healthRecordApi.addRecord(newRecord);
             setMessage("Health record added successfully.");
-            navigate(`/pet/${id}`);
+            setMessageType("success");
+            setTimeout(() => {                
+                navigate(`/pet/${id}`);
+            }, 1000);
         }catch (err){
             console.error("Failed to add record", err);
             setMessage("Error while adding health record.");
+            setMessageType("error");
         }
     };
 
@@ -45,7 +51,7 @@ export default function AddHealthRecordPage(){
             <h2>Add Health Record</h2>
             <BackButton to={`/pet/${id}`} label="← Back to Details" />
 
-            {message && <div className="message-box">{message}</div>}
+            {message && <div className={`message-box ${messageType}`}>{message}</div>}
 
             <form className="record-form" onSubmit={handleSubmit}>
                 <label>Date</label>
@@ -59,7 +65,7 @@ export default function AddHealthRecordPage(){
                 <label>Record Type</label>
                 <select
                     value={recordType}
-                    onChange={(e) => setRecordType(e.target.value)}
+                    onChange={(e) => setRecordType(Number(e.target.value))}
                     required
                 >
                     <option value="0">Checkup</option>

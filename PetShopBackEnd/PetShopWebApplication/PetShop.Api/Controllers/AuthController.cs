@@ -21,14 +21,21 @@ namespace PetShop.Api.Controllers
         [HttpPost("login")]
         public IActionResult Login(LoginDTO dto)
         {
-            var user = _userService.Authenticate(dto.Username, dto.Password);
+            try
+            {
+                var user = _userService.Authenticate(dto.Username, dto.Password);
 
-            if (user == null)
-                return Unauthorized("Invalid username or password");
+                if (user == null)
+                    return Unauthorized("Invalid username or password");
 
-            var token = _jwtTokenGenerator.GenaretaToken(user);
+                var token = _jwtTokenGenerator.GenaretaToken(user);
 
-            return Ok(new { Token = token });
+                return Ok(new { Token = token });
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Autentication service error");
+            }
 
         }
     }
