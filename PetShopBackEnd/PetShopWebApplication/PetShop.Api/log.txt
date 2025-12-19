@@ -1315,3 +1315,186 @@
 [Info] 2025-12-17 19:41:36 - Fetching health records for pet 36c2d2e9-ae94-4ca7-a859-e491e38e048e
 [Info] 2025-12-17 19:41:54 - All pets requested by Manager.
 [Info] 2025-12-17 19:41:54 - All pets requested by Manager.
+[Info] 2025-12-19 13:29:01 - User successfully logged in: seller
+[Info] 2025-12-19 13:29:03 - Available pets requested by Seller.
+[Info] 2025-12-19 13:29:03 - Available pets requested by Seller.
+[Info] 2025-12-19 13:29:21 - User successfully logged in: manager
+[Info] 2025-12-19 13:29:23 - All pets requested by Manager.
+[Info] 2025-12-19 13:29:23 - All pets requested by Manager.
+[Info] 2025-12-19 13:29:28 - Health record GET request for pet 7cc23e2b-b4a6-4230-830a-a78a34e1b4be
+[Info] 2025-12-19 13:29:28 - Regusted pet by id: 7cc23e2b-b4a6-4230-830a-a78a34e1b4be
+[Info] 2025-12-19 13:29:28 - Fetching health records for pet 7cc23e2b-b4a6-4230-830a-a78a34e1b4be
+[Info] 2025-12-19 13:29:28 - Regusted pet by id: 7cc23e2b-b4a6-4230-830a-a78a34e1b4be
+[Info] 2025-12-19 13:29:28 - Health record GET request for pet 7cc23e2b-b4a6-4230-830a-a78a34e1b4be
+[Info] 2025-12-19 13:29:28 - Fetching health records for pet 7cc23e2b-b4a6-4230-830a-a78a34e1b4be
+[Info] 2025-12-19 13:29:31 - All pets requested by Manager.
+[Info] 2025-12-19 13:29:31 - All pets requested by Manager.
+[Info] 2025-12-19 13:29:34 - Invoice list requested.
+[Info] 2025-12-19 13:29:34 - Invoice list requested.
+[Info] 2025-12-19 13:29:37 - Invoice requested: b2c36a95-aca2-4b20-9cd0-aa45d9576bfe
+[Info] 2025-12-19 13:29:37 - Invoice requested: b2c36a95-aca2-4b20-9cd0-aa45d9576bfe
+[Info] 2025-12-19 13:29:37 - Regusted pet by id: 641390ef-94cd-4392-88e1-159bada6a4c8
+[Info] 2025-12-19 13:29:37 - Regusted pet by id: 641390ef-94cd-4392-88e1-159bada6a4c8
+[Info] 2025-12-19 13:29:39 - Invoice list requested.
+[Info] 2025-12-19 13:29:39 - Invoice list requested.
+[Info] 2025-12-19 13:29:58 - User successfully logged in: seller
+[Info] 2025-12-19 13:29:59 - Available pets requested by Seller.
+[Info] 2025-12-19 13:29:59 - Available pets requested by Seller.
+[Info] 2025-12-19 13:32:11 - Invoice created for pet Americki Staford, seller: seller, total price: 212.50
+[Info] 2025-12-19 13:32:11 - Pet sold: Americki Staford by seller. Final price: 212.50
+[Info] 2025-12-19 13:32:11 - Available pets requested by Seller.
+[Info] 2025-12-19 13:32:28 - User successfully logged in: manager
+[Info] 2025-12-19 13:32:30 - All pets requested by Manager.
+[Info] 2025-12-19 13:32:30 - All pets requested by Manager.
+[Info] 2025-12-19 13:32:34 - Regusted pet by id: 2cf86087-16a5-41e4-835f-57ffccab0a31
+[Info] 2025-12-19 13:32:34 - Health record GET request for pet 2cf86087-16a5-41e4-835f-57ffccab0a31
+[Info] 2025-12-19 13:32:34 - Fetching health records for pet 2cf86087-16a5-41e4-835f-57ffccab0a31
+[Info] 2025-12-19 13:32:34 - Regusted pet by id: 2cf86087-16a5-41e4-835f-57ffccab0a31
+[Info] 2025-12-19 13:32:34 - Health record GET request for pet 2cf86087-16a5-41e4-835f-57ffccab0a31
+[Info] 2025-12-19 13:32:34 - Fetching health records for pet 2cf86087-16a5-41e4-835f-57ffccab0a31
+[Info] 2025-12-19 13:32:39 - All pets requested by Manager.
+[Info] 2025-12-19 13:32:39 - All pets requested by Manager.
+[Info] 2025-12-19 13:32:41 - Invoice list requested.
+[Info] 2025-12-19 13:32:41 - Invoice list requested.
+[Info] 2025-12-19 13:32:47 - Invoice requested: 9a965c2e-0857-43b6-aabf-c781bcf365a4
+[Info] 2025-12-19 13:32:47 - Invoice requested: 9a965c2e-0857-43b6-aabf-c781bcf365a4
+[Info] 2025-12-19 13:32:47 - Regusted pet by id: 2cf86087-16a5-41e4-835f-57ffccab0a31
+[Info] 2025-12-19 13:32:47 - Regusted pet by id: 2cf86087-16a5-41e4-835f-57ffccab0a31
+[Info] 2025-12-19 13:32:50 - Invoice list requested.
+[Info] 2025-12-19 13:32:50 - Invoice list requested.
+[Info] 2025-12-19 13:34:20 - Pet added successfully: luna (Mammal)
+[Info] 2025-12-19 13:34:24 - All pets requested by Manager.
+[Info] 2025-12-19 13:34:24 - All pets requested by Manager.
+[Info] 2025-12-19 13:34:33 - Health record GET request for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:33 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:33 - Fetching health records for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:33 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:33 - Health record GET request for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:33 - Fetching health records for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:45 - New health record submission for PetId=e3b7ef95-3103-4e41-b1f1-364416834eea by manager
+[Info] 2025-12-19 13:34:45 - Health record added for pet e3b7ef95-3103-4e41-b1f1-364416834eea by manager. Type: Vaccination, Date: 12/19/2025 12:00:00 AM
+[Info] 2025-12-19 13:34:46 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:46 - Health record GET request for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:46 - Fetching health records for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:46 - Health record GET request for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:46 - Fetching health records for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:46 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:50 - All pets requested by Manager.
+[Info] 2025-12-19 13:34:50 - All pets requested by Manager.
+[Info] 2025-12-19 13:34:53 - Health record GET request for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:53 - Fetching health records for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:53 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:53 - Health record GET request for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:53 - Fetching health records for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:53 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:34:55 - All pets requested by Manager.
+[Info] 2025-12-19 13:34:55 - All pets requested by Manager.
+[Info] 2025-12-19 13:35:05 - User successfully logged in: seller
+[Info] 2025-12-19 13:35:07 - Available pets requested by Seller.
+[Info] 2025-12-19 13:35:07 - Available pets requested by Seller.
+[Info] 2025-12-19 13:35:11 - Health record GET request for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:35:11 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:35:11 - Fetching health records for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:35:11 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:35:11 - Health record GET request for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:35:11 - Fetching health records for pet e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:35:16 - Available pets requested by Seller.
+[Info] 2025-12-19 13:35:16 - Available pets requested by Seller.
+[Info] 2025-12-19 13:35:25 - Invoice created for pet luna, seller: seller, total price: 104.55
+[Info] 2025-12-19 13:35:25 - Pet sold: luna by seller. Final price: 104.55
+[Info] 2025-12-19 13:35:25 - Available pets requested by Seller.
+[Info] 2025-12-19 13:35:42 - User successfully logged in: manager
+[Info] 2025-12-19 13:35:44 - Invoice list requested.
+[Info] 2025-12-19 13:35:44 - Invoice list requested.
+[Info] 2025-12-19 13:35:46 - Invoice requested: e8e86655-8aca-46a4-b583-92edbebc0e09
+[Info] 2025-12-19 13:35:46 - Invoice requested: e8e86655-8aca-46a4-b583-92edbebc0e09
+[Info] 2025-12-19 13:35:46 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:35:46 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 13:35:57 - Invoice list requested.
+[Info] 2025-12-19 13:35:57 - Invoice list requested.
+[Info] 2025-12-19 13:59:11 - User successfully logged in: manager
+[Info] 2025-12-19 14:02:17 - User successfully logged in: manager
+[Info] 2025-12-19 14:02:23 - User successfully logged in: seller
+[Info] 2025-12-19 14:03:33 - User successfully logged in: manager
+[Info] 2025-12-19 14:05:44 - User successfully logged in: seller
+[Info] 2025-12-19 16:30:08 - User successfully logged in: seller
+[Info] 2025-12-19 16:31:09 - Available pets requested by Seller.
+[Info] 2025-12-19 16:31:09 - Available pets requested by Seller.
+[Info] 2025-12-19 16:31:12 - Health record GET request for pet cc49592a-2c33-4e3c-9fc3-062ea0f6efc8
+[Info] 2025-12-19 16:31:12 - Regusted pet by id: cc49592a-2c33-4e3c-9fc3-062ea0f6efc8
+[Info] 2025-12-19 16:31:12 - Fetching health records for pet cc49592a-2c33-4e3c-9fc3-062ea0f6efc8
+[Info] 2025-12-19 16:31:12 - Regusted pet by id: cc49592a-2c33-4e3c-9fc3-062ea0f6efc8
+[Info] 2025-12-19 16:31:12 - Health record GET request for pet cc49592a-2c33-4e3c-9fc3-062ea0f6efc8
+[Info] 2025-12-19 16:31:12 - Fetching health records for pet cc49592a-2c33-4e3c-9fc3-062ea0f6efc8
+[Info] 2025-12-19 16:31:14 - Available pets requested by Seller.
+[Info] 2025-12-19 16:31:14 - Available pets requested by Seller.
+[Info] 2025-12-19 16:33:57 - User successfully logged in: manager
+[Info] 2025-12-19 16:34:16 - User successfully logged in: seller
+[Info] 2025-12-19 16:35:09 - User successfully logged in: manager
+[Info] 2025-12-19 16:36:08 - User successfully logged in: seller
+[Info] 2025-12-19 16:36:21 - User successfully logged in: manager
+[Info] 2025-12-19 16:39:17 - All pets requested by Manager.
+[Info] 2025-12-19 16:39:17 - All pets requested by Manager.
+[Info] 2025-12-19 16:39:21 - Regusted pet by id: 023af43f-85da-4c7e-be83-82e2653987e5
+[Info] 2025-12-19 16:39:21 - Health record GET request for pet 023af43f-85da-4c7e-be83-82e2653987e5
+[Info] 2025-12-19 16:39:21 - Fetching health records for pet 023af43f-85da-4c7e-be83-82e2653987e5
+[Info] 2025-12-19 16:39:21 - Regusted pet by id: 023af43f-85da-4c7e-be83-82e2653987e5
+[Info] 2025-12-19 16:39:21 - Health record GET request for pet 023af43f-85da-4c7e-be83-82e2653987e5
+[Info] 2025-12-19 16:39:21 - Fetching health records for pet 023af43f-85da-4c7e-be83-82e2653987e5
+[Info] 2025-12-19 16:39:23 - All pets requested by Manager.
+[Info] 2025-12-19 16:39:23 - All pets requested by Manager.
+[Info] 2025-12-19 16:39:33 - User successfully logged in: seller
+[Info] 2025-12-19 16:39:37 - Available pets requested by Seller.
+[Info] 2025-12-19 16:39:37 - Available pets requested by Seller.
+[Info] 2025-12-19 16:40:03 - Available pets requested by Seller.
+[Info] 2025-12-19 16:40:03 - Available pets requested by Seller.
+[Error] 2025-12-19 16:46:40 - Login failed — wrong password for user: manager
+[Info] 2025-12-19 16:46:48 - User successfully logged in: manager
+[Info] 2025-12-19 16:46:54 - All pets requested by Manager.
+[Info] 2025-12-19 16:46:54 - All pets requested by Manager.
+[Info] 2025-12-19 16:46:57 - Health record GET request for pet 53762f83-3807-482d-b154-690ca3660282
+[Info] 2025-12-19 16:46:57 - Regusted pet by id: 53762f83-3807-482d-b154-690ca3660282
+[Info] 2025-12-19 16:46:57 - Fetching health records for pet 53762f83-3807-482d-b154-690ca3660282
+[Info] 2025-12-19 16:46:57 - Regusted pet by id: 53762f83-3807-482d-b154-690ca3660282
+[Info] 2025-12-19 16:46:57 - Health record GET request for pet 53762f83-3807-482d-b154-690ca3660282
+[Info] 2025-12-19 16:46:57 - Fetching health records for pet 53762f83-3807-482d-b154-690ca3660282
+[Info] 2025-12-19 16:47:02 - All pets requested by Manager.
+[Info] 2025-12-19 16:47:02 - All pets requested by Manager.
+[Info] 2025-12-19 16:47:11 - User successfully logged in: seller
+[Info] 2025-12-19 16:47:12 - Available pets requested by Seller.
+[Info] 2025-12-19 16:47:12 - Available pets requested by Seller.
+[Info] 2025-12-19 16:47:16 - Health record GET request for pet 3001ba1d-8c4f-4510-a26e-6f5f5e9b3bc5
+[Info] 2025-12-19 16:47:16 - Regusted pet by id: 3001ba1d-8c4f-4510-a26e-6f5f5e9b3bc5
+[Info] 2025-12-19 16:47:16 - Fetching health records for pet 3001ba1d-8c4f-4510-a26e-6f5f5e9b3bc5
+[Info] 2025-12-19 16:47:16 - Regusted pet by id: 3001ba1d-8c4f-4510-a26e-6f5f5e9b3bc5
+[Info] 2025-12-19 16:47:16 - Health record GET request for pet 3001ba1d-8c4f-4510-a26e-6f5f5e9b3bc5
+[Info] 2025-12-19 16:47:16 - Fetching health records for pet 3001ba1d-8c4f-4510-a26e-6f5f5e9b3bc5
+[Info] 2025-12-19 16:47:18 - Available pets requested by Seller.
+[Info] 2025-12-19 16:47:18 - Available pets requested by Seller.
+[Info] 2025-12-19 16:47:27 - User successfully logged in: manager
+[Info] 2025-12-19 16:47:35 - All pets requested by Manager.
+[Info] 2025-12-19 16:47:35 - All pets requested by Manager.
+[Info] 2025-12-19 16:47:37 - Regusted pet by id: 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:37 - Health record GET request for pet 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:37 - Fetching health records for pet 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:37 - Regusted pet by id: 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:37 - Health record GET request for pet 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:37 - Fetching health records for pet 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:49 - New health record submission for PetId=417c8bc6-624e-4ae6-be9c-04b16e62ebb8 by manager
+[Info] 2025-12-19 16:47:49 - Health record added for pet 417c8bc6-624e-4ae6-be9c-04b16e62ebb8 by manager. Type: Checkup, Date: 12/19/2025 12:00:00 AM
+[Info] 2025-12-19 16:47:50 - Health record GET request for pet 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:50 - Regusted pet by id: 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:50 - Fetching health records for pet 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:50 - Regusted pet by id: 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:50 - Health record GET request for pet 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:50 - Fetching health records for pet 417c8bc6-624e-4ae6-be9c-04b16e62ebb8
+[Info] 2025-12-19 16:47:56 - All pets requested by Manager.
+[Info] 2025-12-19 16:47:56 - All pets requested by Manager.
+[Info] 2025-12-19 16:48:01 - Invoice list requested.
+[Info] 2025-12-19 16:48:02 - Invoice list requested.
+[Info] 2025-12-19 16:48:03 - Invoice requested: e8e86655-8aca-46a4-b583-92edbebc0e09
+[Info] 2025-12-19 16:48:03 - Invoice requested: e8e86655-8aca-46a4-b583-92edbebc0e09
+[Info] 2025-12-19 16:48:03 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 16:48:03 - Regusted pet by id: e3b7ef95-3103-4e41-b1f1-364416834eea
+[Info] 2025-12-19 16:48:07 - Invoice list requested.
+[Info] 2025-12-19 16:48:07 - Invoice list requested.

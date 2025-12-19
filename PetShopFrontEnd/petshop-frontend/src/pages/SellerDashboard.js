@@ -4,7 +4,7 @@ import { AuthContext } from "../auth/AuthContext";
 import "../styles/SellerDashboard.css";
 
 export default function SellerDashboard() {
-    const {logout} = useContext(AuthContext);
+    const {logout, user} = useContext(AuthContext);
     const navigate = useNavigate();
 
     const handleLogout = () => {
@@ -15,7 +15,12 @@ export default function SellerDashboard() {
     return(
         <div className="seller-container">
             <div className="top-bar-seller">
-                <h2 className="seller-title">Seller Dashboard</h2>
+                <div className="top-bar-seller-left">
+                    <h2 className="seller-title">Seller Dashboard</h2>
+                    <p className="welcome-text-seller">
+                        Logged in as <strong>{user?.username}</strong>
+                    </p>
+                </div>
                 <button className="logout-btn-seller" onClick={handleLogout}>
                     Logout
                 </button>

@@ -5,6 +5,7 @@ import BackButton from "../components/BackButton";
 import InvoiceModal from "../components/InvoiceModal";
 import "../styles/SellerPetsPage.css";
 import { Link } from "react-router-dom";
+import SellConfirmModal from "../components/SellConfirmModal";
 
 export default function SellerPetsPage() {
     console.log("SellerPetsPage mounted");
@@ -12,6 +13,7 @@ export default function SellerPetsPage() {
     const [loading, setLoading] = useState(true);
     const [soldInvoice, setSoldInvoice] = useState(null);
     const [showInvoiceModal, setShowInvoiceModal] = useState(false);
+    const [selectedPet, setSelectedPet] = useState(null)
 
     useEffect(() => {
         loadAvailable();
@@ -28,14 +30,7 @@ export default function SellerPetsPage() {
         }
     };
 
-    const handleSell = async (id,petName) => {
-        
-        const confirmed = window.confirm(
-            `Are you sure you want to sell "${petName}"?`
-        );
-        
-        if (!confirmed) return;
-
+    const handleSell = async (id) => {
         try{
             const res = await sellApi.sellPet(id);
             setSoldInvoice(res.data);
@@ -92,7 +87,7 @@ export default function SellerPetsPage() {
                             <td>
                                 <button
                                     className="sell-btn"
-                                    onClick={() => handleSell(p.id,p.name)}
+                                    onClick={() => setSelectedPet(p)}
                                 >
                                     Sell
                                 </button>
@@ -108,6 +103,16 @@ export default function SellerPetsPage() {
                 setShowInvoiceModal(false);
                 setSoldInvoice(null);
             }}
+            />
+        )}
+        {selectedPet && (
+            <SellConfirmModal
+                pet={selectedPet}
+                onClose={() => setSelectedPet(null)}
+                onConfirm={async () => {
+                    await handleSell(selectedPet.id);
+                    setSelectedPet(null);
+                }}
             />
         )}
         </div>

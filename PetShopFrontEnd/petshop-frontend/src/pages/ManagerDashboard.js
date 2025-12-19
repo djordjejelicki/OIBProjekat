@@ -4,8 +4,9 @@ import {AuthContext} from "../auth/AuthContext";
 import "../styles/ManagerDashboard.css";
 
 export default function ManagerDashboard(){
-    const {logout} = useContext(AuthContext);
+    const {logout, user} = useContext(AuthContext);
     const navigate = useNavigate();
+
 
     const handleLogout = () => {
         logout();
@@ -14,8 +15,13 @@ export default function ManagerDashboard(){
 
     return(
         <div className="manager-container">
-            <div className="top-bar">
-                <h2 className="manager-title">Manager Dashboard</h2>
+            <div className="top-bar-manager">
+                <div className="top-bar-manager-left">
+                    <h2 className="manager-title">Manager Dashboard</h2>
+                    <p className="welcome-text-manager">
+                        Logged in as <strong>{user?.username}</strong>
+                    </p>
+                </div>
                 <button className="logout-btn" onClick={handleLogout}>Logout</button>
             </div>
 

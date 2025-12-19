@@ -11,12 +11,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.top-bar-seller-left{
+    margin: 0;
 }
 
 .seller-title {
     font-size: 26px;
     font-weight: bold;
-    color: #2e7d32; /* Zelena */
+    color: #2e7d32; 
 }
 
 .logout-btn-seller {
@@ -55,4 +60,14 @@
 
 .seller-btn:hover {
     background-color: #43a047;
+}
+
+.welcome-text-seller {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #666;
+}
+
+.welcome-text-seller strong {
+    color: #66bb6a;
 }
