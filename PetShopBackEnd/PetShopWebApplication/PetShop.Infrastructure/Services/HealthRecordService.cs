@@ -17,9 +17,9 @@ namespace PetShop.Infrastructure.Services
         }
         public void AddRecord(HealthRecord record)
         {
-            if (string.IsNullOrWhiteSpace(record.Description))
+            if (string.IsNullOrWhiteSpace(record.Notes))
             {
-                _logger.Log(LogLevel.Warning, $"Health record for pet {record.PetId} has empty description.");
+                _logger.Log(LogLevel.Warning, $"Health record for pet {record.PetId} has empty Notes.");
             }
 
             _healthRecordRepository.Add(record);

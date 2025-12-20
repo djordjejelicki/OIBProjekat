@@ -28,20 +28,17 @@ namespace PetShop.Infrastructure.Services
         }
 
         public IEnumerable<Pet> GetAllPets()
-        {
-            _loggerService.Log(LogLevel.Info, "All pets requested by Manager.");
+        {            
             return _petRepository.GetAll();
         }
 
         public IEnumerable<Pet> GetAvailblePets()
         {
-            _loggerService.Log(LogLevel.Info, "Available pets requested by Seller.");
             return _petRepository.GetUnsoldPets();
         }
 
         public Pet GetById(Guid id)
         {
-            _loggerService.Log(LogLevel.Info, $"Regusted pet by id: {id}");
             return _petRepository.GetById(id);
         }
     }

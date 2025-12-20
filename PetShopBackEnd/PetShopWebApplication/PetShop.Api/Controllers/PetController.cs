@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using PetShop.Api.DTOs;
 using PetShop.Application.Interfaces.Services;
 using PetShop.Domain.Entities;
+using LogLevel = PetShop.Domain.Enums.LogLevel;
 
 namespace PetShop.Api.Controllers
 {
@@ -12,16 +13,19 @@ namespace PetShop.Api.Controllers
     {
         private readonly IPetService _petService;
         private readonly IWebHostEnvironment _env;
-        public PetController(IPetService petService, IWebHostEnvironment env)
+        private readonly ILoggerService _logger;
+        public PetController(IPetService petService, IWebHostEnvironment env,ILoggerService logger)
         {
             _petService = petService;
             _env = env;
+            _logger = logger;
         }
 
         [HttpPost]
         [Authorize(Roles = "Manager")]
         public async Task<IActionResult> Add([FromForm] CreatePetRequest request)
         {
+            _logger.Log(LogLevel.Info, $"Add pet request by: {User.Identity?.Name}");
             try
             {
                 var pet = new Pet
@@ -58,6 +62,7 @@ namespace PetShop.Api.Controllers
             }
             catch (Exception)
             {
+                _logger.Log(LogLevel.Error, $"Server error while trying to add new pet");
                 return StatusCode(500, "Unexpected server error while adding pet.");
             }
         }
@@ -66,6 +71,7 @@ namespace PetShop.Api.Controllers
         [Authorize(Roles = "Manager")]
         public IActionResult GetAll() 
         {
+            _logger.Log(LogLevel.Info, $"All pets requested by: {User.Identity?.Name}");
             return Ok(_petService.GetAllPets());
         }
 
@@ -73,6 +79,7 @@ namespace PetShop.Api.Controllers
         [Authorize(Roles = "Seller")]
         public IActionResult GetAvailable() 
         {
+            _logger.Log(LogLevel.Info, $"Available pets requested by: {User.Identity?.Name}");
             return Ok(_petService.GetAvailblePets());
         }
 
@@ -81,9 +88,11 @@ namespace PetShop.Api.Controllers
 
         public IActionResult GetById(Guid id)
         {
+            _logger.Log(LogLevel.Info, $"Pet requested with id : {id} by: {User.Identity.Name}");
             var pet = _petService.GetById(id);
             if(pet == null)
             {
+                _logger.Log(LogLevel.Warning, $"There is no pet with id: {id}");
                 return NotFound();
             }
             return Ok(pet);

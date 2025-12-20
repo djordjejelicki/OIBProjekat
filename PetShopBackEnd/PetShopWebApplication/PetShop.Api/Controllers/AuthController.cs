@@ -26,7 +26,9 @@ namespace PetShop.Api.Controllers
                 var user = _userService.Authenticate(dto.Username, dto.Password);
 
                 if (user == null)
+                {
                     return Unauthorized("Invalid username or password");
+                }
 
                 var token = _jwtTokenGenerator.GenaretaToken(user);
 

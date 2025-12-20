@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{593AB8B9-E115-404D-B08B-C279CB9579D8}|PetShop.Api\\PetShop.Api.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.api\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{593AB8B9-E115-404D-B08B-C279CB9579D8}|PetShop.Api\\PetShop.Api.csproj|solutionrelative:petshop.api\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.infrastructure\\services\\healthrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC111D1A-505C-4B25-9EF4-929F5C67148A}|PetShop.Infrastructure\\PetShop.Infrastructure.csproj|solutionrelative:petshop.infrastructure\\services\\healthrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,36 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PetController.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Api\\Controllers\\PetController.cs",
-              "RelativeDocumentMoniker": "PetShop.Api\\Controllers\\PetController.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Api\\Controllers\\PetController.cs",
-              "RelativeToolTip": "PetShop.Api\\Controllers\\PetController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T17:26:23.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HealthRecordService.cs",
-              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\HealthRecordService.cs",
-              "RelativeDocumentMoniker": "PetShop.Infrastructure\\Services\\HealthRecordService.cs",
-              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Infrastructure\\Services\\HealthRecordService.cs",
-              "RelativeToolTip": "PetShop.Infrastructure\\Services\\HealthRecordService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:52:34.055Z"
             }
           ]
         }

@@ -23,6 +23,8 @@ namespace PetShop.Infrastructure.Data
             // Hashovanje lozinke
             string adminPass = PasswordHasher.HashPassword("admin123");
             string sellerPass = PasswordHasher.HashPassword("seller123");
+            string minaMNGPass = PasswordHasher.HashPassword("mina123");
+            string bojanSELLPass = PasswordHasher.HashPassword("bojan123");
 
             modelBuilder.Entity<User>().HasData(
                 new User
@@ -41,6 +43,24 @@ namespace PetShop.Infrastructure.Data
                     FirstName = "Default",
                     LastName = "Seller",
                     Password = sellerPass,
+                    Role = RoleType.Seller
+                },
+                new User
+                {
+                    Id = Guid.NewGuid(),
+                    Username = "minamng",
+                    FirstName = "Mina",
+                    LastName = "Dragic",
+                    Password = minaMNGPass,
+                    Role = RoleType.Manager
+                },
+                new User
+                {
+                    Id = Guid.NewGuid(),
+                    Username = "bojansell",
+                    FirstName = "Bojan",
+                    LastName = "Koledin",
+                    Password = bojanSELLPass,
                     Role = RoleType.Seller
                 }
             );

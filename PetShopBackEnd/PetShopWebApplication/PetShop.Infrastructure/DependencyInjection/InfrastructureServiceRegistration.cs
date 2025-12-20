@@ -23,14 +23,14 @@ namespace PetShop.Infrastructure.DependencyInjection
             services.AddScoped<IPetService, PetService>();
             services.AddScoped<IInvoiceService, InvoiceService>();
             services.AddScoped<IHealthRecordService, HealthRecordService>();
+            services.AddScoped<ISellPetService,SellPetService>();
 
-            // Sales services to be injected by shift (later)
             services.AddScoped<DaySalesService>();
             services.AddScoped<NightSalesService>();
             services.AddScoped<SalesSelectorService>();
-            services.AddScoped<SellPetService>();
+            
 
-            // Logger (poziva se kasnije)
+            // Logger 
             services.AddSingleton<ILoggerService, FileLoggerService>();
 
             return services;

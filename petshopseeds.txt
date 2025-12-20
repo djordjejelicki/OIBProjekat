@@ -1,0 +1,16 @@
+{
+  "username": "manager",
+  "password": "admin123"
+}
+{
+  "username": "seller",
+  "password": "seller123"
+}
+{
+  "username": "minamng",
+  "password": "mina123"
+}
+{
+  "username": "bojansell",
+  "password": "bojan123"
+}

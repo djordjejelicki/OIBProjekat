@@ -32,14 +32,12 @@ namespace PetShop.Infrastructure.Services
         }
 
         public IEnumerable<Invoice> GetAll()
-        {
-            _loggerService.Log(LogLevel.Info, "Invoice list requested.");
+        {            
             return _invoiceRepository.GetAll();
         }
 
         public Invoice GetById(Guid id)
         {
-            _loggerService.Log(LogLevel.Info, $"Invoice requested: {id}");
             return _invoiceRepository.GetById(id);
         }
     }

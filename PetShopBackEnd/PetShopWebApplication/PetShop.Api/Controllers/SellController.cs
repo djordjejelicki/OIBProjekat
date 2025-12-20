@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PetShop.Application.Interfaces.Services;
 using PetShop.Domain.Entities;
 using PetShop.Domain.Enums;
-using PetShop.Infrastructure.Services;
 using System.Security.Claims;
 
 namespace PetShop.Api.Controllers
@@ -11,8 +11,8 @@ namespace PetShop.Api.Controllers
     [Route("api/[controller]")]
     public class SellController : ControllerBase
     {
-      private readonly SellPetService _sellPetService;
-        public SellController(SellPetService salePetService) 
+        private readonly ISellPetService _sellPetService;
+        public SellController(ISellPetService salePetService) 
         {
             _sellPetService = salePetService;
         }

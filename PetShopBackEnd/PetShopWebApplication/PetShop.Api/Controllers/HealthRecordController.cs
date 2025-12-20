@@ -24,7 +24,7 @@ namespace PetShop.Api.Controllers
         [HttpGet("{petId}")]
         public IActionResult GetByPetId(Guid petId) 
         {
-            _logger.Log(LogLevel.Info, $"Health record GET request for pet {petId}");
+            _logger.Log(LogLevel.Info, $"Health record requested for pet with id: {petId}, by: {User.Identity?.Name}");
             return Ok(_healthRecordService.GetRecords(petId));
         }
 

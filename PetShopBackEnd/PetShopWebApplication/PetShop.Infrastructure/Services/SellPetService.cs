@@ -5,7 +5,7 @@ using PetShop.Domain.Enums;
 
 namespace PetShop.Infrastructure.Services
 {
-    public class SellPetService
+    public class SellPetService : ISellPetService
     {
         private readonly IPetRepository _petRepository;
         private readonly IInvoiceService _invoiceService;
