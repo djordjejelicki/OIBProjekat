@@ -359,3 +359,326 @@
 [Info] 2025-12-20 15:11:41 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: manager
 [Info] 2025-12-20 15:11:44 - Invoice list requested by: manager
 [Info] 2025-12-20 15:11:44 - Invoice list requested by: manager
+[Info] 2025-12-21 11:18:42 - User successfully logged in: minamng
+[Info] 2025-12-21 11:18:48 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:18:48 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:18:50 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:18:50 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:18:50 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:18:51 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:35:24 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:35:24 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:35:27 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:35:27 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:35:27 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:35:27 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:35:37 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:35:37 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:35:39 - All pets requested by: minamng
+[Info] 2025-12-21 11:35:39 - All pets requested by: minamng
+[Info] 2025-12-21 11:35:44 - Pet requested with id : e4529180-cd76-4e51-905b-9babd52b18e1 by: minamng
+[Info] 2025-12-21 11:35:44 - Health record requested for pet with id: e4529180-cd76-4e51-905b-9babd52b18e1, by: minamng
+[Info] 2025-12-21 11:35:44 - Fetching health records for pet e4529180-cd76-4e51-905b-9babd52b18e1
+[Info] 2025-12-21 11:35:44 - Pet requested with id : e4529180-cd76-4e51-905b-9babd52b18e1 by: minamng
+[Info] 2025-12-21 11:35:44 - Health record requested for pet with id: e4529180-cd76-4e51-905b-9babd52b18e1, by: minamng
+[Info] 2025-12-21 11:35:44 - Fetching health records for pet e4529180-cd76-4e51-905b-9babd52b18e1
+[Info] 2025-12-21 11:35:47 - All pets requested by: minamng
+[Info] 2025-12-21 11:35:47 - All pets requested by: minamng
+[Info] 2025-12-21 11:35:49 - Pet requested with id : a7a86656-7e99-433f-9f1a-042498ccf465 by: minamng
+[Info] 2025-12-21 11:35:49 - Health record requested for pet with id: a7a86656-7e99-433f-9f1a-042498ccf465, by: minamng
+[Info] 2025-12-21 11:35:50 - Fetching health records for pet a7a86656-7e99-433f-9f1a-042498ccf465
+[Info] 2025-12-21 11:35:50 - Pet requested with id : a7a86656-7e99-433f-9f1a-042498ccf465 by: minamng
+[Info] 2025-12-21 11:35:50 - Health record requested for pet with id: a7a86656-7e99-433f-9f1a-042498ccf465, by: minamng
+[Info] 2025-12-21 11:35:50 - Fetching health records for pet a7a86656-7e99-433f-9f1a-042498ccf465
+[Info] 2025-12-21 11:35:53 - All pets requested by: minamng
+[Info] 2025-12-21 11:35:53 - All pets requested by: minamng
+[Info] 2025-12-21 11:35:55 - Pet requested with id : 40b2b401-918d-4fbe-8223-af312195fb18 by: minamng
+[Info] 2025-12-21 11:35:55 - Health record requested for pet with id: 40b2b401-918d-4fbe-8223-af312195fb18, by: minamng
+[Info] 2025-12-21 11:35:55 - Fetching health records for pet 40b2b401-918d-4fbe-8223-af312195fb18
+[Info] 2025-12-21 11:35:55 - Pet requested with id : 40b2b401-918d-4fbe-8223-af312195fb18 by: minamng
+[Info] 2025-12-21 11:35:55 - Health record requested for pet with id: 40b2b401-918d-4fbe-8223-af312195fb18, by: minamng
+[Info] 2025-12-21 11:35:55 - Fetching health records for pet 40b2b401-918d-4fbe-8223-af312195fb18
+[Info] 2025-12-21 11:36:01 - All pets requested by: minamng
+[Info] 2025-12-21 11:36:01 - All pets requested by: minamng
+[Info] 2025-12-21 11:36:04 - Health record requested for pet with id: 80f89a16-d95f-4843-a5f3-583457157dbd, by: minamng
+[Info] 2025-12-21 11:36:04 - Pet requested with id : 80f89a16-d95f-4843-a5f3-583457157dbd by: minamng
+[Info] 2025-12-21 11:36:04 - Fetching health records for pet 80f89a16-d95f-4843-a5f3-583457157dbd
+[Info] 2025-12-21 11:36:04 - Health record requested for pet with id: 80f89a16-d95f-4843-a5f3-583457157dbd, by: minamng
+[Info] 2025-12-21 11:36:04 - Pet requested with id : 80f89a16-d95f-4843-a5f3-583457157dbd by: minamng
+[Info] 2025-12-21 11:36:04 - Fetching health records for pet 80f89a16-d95f-4843-a5f3-583457157dbd
+[Info] 2025-12-21 11:36:09 - All pets requested by: minamng
+[Info] 2025-12-21 11:36:09 - All pets requested by: minamng
+[Info] 2025-12-21 11:36:14 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:36:14 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:36:16 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:36:16 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:36:16 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:36:16 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:37:13 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:37:13 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:37:15 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:15 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:17 - Health record requested for pet with id: 7d244bea-d9f5-496f-99c4-88e71a66d1f7, by: minamng
+[Info] 2025-12-21 11:37:17 - Fetching health records for pet 7d244bea-d9f5-496f-99c4-88e71a66d1f7
+[Info] 2025-12-21 11:37:17 - Pet requested with id : 7d244bea-d9f5-496f-99c4-88e71a66d1f7 by: minamng
+[Info] 2025-12-21 11:37:17 - Pet requested with id : 7d244bea-d9f5-496f-99c4-88e71a66d1f7 by: minamng
+[Info] 2025-12-21 11:37:17 - Health record requested for pet with id: 7d244bea-d9f5-496f-99c4-88e71a66d1f7, by: minamng
+[Info] 2025-12-21 11:37:17 - Fetching health records for pet 7d244bea-d9f5-496f-99c4-88e71a66d1f7
+[Info] 2025-12-21 11:37:22 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:22 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:25 - Pet requested with id : 160d05da-07b8-4cfb-9201-c6f482c0b805 by: minamng
+[Info] 2025-12-21 11:37:25 - Health record requested for pet with id: 160d05da-07b8-4cfb-9201-c6f482c0b805, by: minamng
+[Info] 2025-12-21 11:37:25 - Fetching health records for pet 160d05da-07b8-4cfb-9201-c6f482c0b805
+[Info] 2025-12-21 11:37:25 - Health record requested for pet with id: 160d05da-07b8-4cfb-9201-c6f482c0b805, by: minamng
+[Info] 2025-12-21 11:37:25 - Pet requested with id : 160d05da-07b8-4cfb-9201-c6f482c0b805 by: minamng
+[Info] 2025-12-21 11:37:25 - Fetching health records for pet 160d05da-07b8-4cfb-9201-c6f482c0b805
+[Info] 2025-12-21 11:37:28 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:28 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:30 - Health record requested for pet with id: 6efc2423-fe7b-450c-bd92-4902a5472a3a, by: minamng
+[Info] 2025-12-21 11:37:30 - Pet requested with id : 6efc2423-fe7b-450c-bd92-4902a5472a3a by: minamng
+[Info] 2025-12-21 11:37:30 - Fetching health records for pet 6efc2423-fe7b-450c-bd92-4902a5472a3a
+[Info] 2025-12-21 11:37:30 - Health record requested for pet with id: 6efc2423-fe7b-450c-bd92-4902a5472a3a, by: minamng
+[Info] 2025-12-21 11:37:30 - Pet requested with id : 6efc2423-fe7b-450c-bd92-4902a5472a3a by: minamng
+[Info] 2025-12-21 11:37:30 - Fetching health records for pet 6efc2423-fe7b-450c-bd92-4902a5472a3a
+[Info] 2025-12-21 11:37:34 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:34 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:37 - Pet requested with id : 3227df5e-7011-42b3-b868-d6ea240a6e0a by: minamng
+[Info] 2025-12-21 11:37:37 - Health record requested for pet with id: 3227df5e-7011-42b3-b868-d6ea240a6e0a, by: minamng
+[Info] 2025-12-21 11:37:37 - Fetching health records for pet 3227df5e-7011-42b3-b868-d6ea240a6e0a
+[Info] 2025-12-21 11:37:37 - Pet requested with id : 3227df5e-7011-42b3-b868-d6ea240a6e0a by: minamng
+[Info] 2025-12-21 11:37:37 - Health record requested for pet with id: 3227df5e-7011-42b3-b868-d6ea240a6e0a, by: minamng
+[Info] 2025-12-21 11:37:37 - Fetching health records for pet 3227df5e-7011-42b3-b868-d6ea240a6e0a
+[Info] 2025-12-21 11:37:48 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:48 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:54 - Pet requested with id : a7a86656-7e99-433f-9f1a-042498ccf465 by: minamng
+[Info] 2025-12-21 11:37:54 - Health record requested for pet with id: a7a86656-7e99-433f-9f1a-042498ccf465, by: minamng
+[Info] 2025-12-21 11:37:54 - Fetching health records for pet a7a86656-7e99-433f-9f1a-042498ccf465
+[Info] 2025-12-21 11:37:54 - Pet requested with id : a7a86656-7e99-433f-9f1a-042498ccf465 by: minamng
+[Info] 2025-12-21 11:37:54 - Health record requested for pet with id: a7a86656-7e99-433f-9f1a-042498ccf465, by: minamng
+[Info] 2025-12-21 11:37:54 - Fetching health records for pet a7a86656-7e99-433f-9f1a-042498ccf465
+[Info] 2025-12-21 11:37:58 - All pets requested by: minamng
+[Info] 2025-12-21 11:37:58 - All pets requested by: minamng
+[Info] 2025-12-21 11:38:00 - Health record requested for pet with id: 80f89a16-d95f-4843-a5f3-583457157dbd, by: minamng
+[Info] 2025-12-21 11:38:00 - Pet requested with id : 80f89a16-d95f-4843-a5f3-583457157dbd by: minamng
+[Info] 2025-12-21 11:38:00 - Fetching health records for pet 80f89a16-d95f-4843-a5f3-583457157dbd
+[Info] 2025-12-21 11:38:00 - Pet requested with id : 80f89a16-d95f-4843-a5f3-583457157dbd by: minamng
+[Info] 2025-12-21 11:38:00 - Health record requested for pet with id: 80f89a16-d95f-4843-a5f3-583457157dbd, by: minamng
+[Info] 2025-12-21 11:38:00 - Fetching health records for pet 80f89a16-d95f-4843-a5f3-583457157dbd
+[Info] 2025-12-21 11:38:08 - All pets requested by: minamng
+[Info] 2025-12-21 11:38:08 - All pets requested by: minamng
+[Info] 2025-12-21 11:41:08 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:41:08 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:41:09 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:41:09 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:41:09 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:41:09 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:41:34 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:41:34 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:42:57 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:42:57 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:42:57 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:42:57 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:43:10 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:43:10 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:43:18 - All pets requested by: minamng
+[Info] 2025-12-21 11:43:18 - All pets requested by: minamng
+[Info] 2025-12-21 11:43:19 - Pet requested with id : 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8 by: minamng
+[Info] 2025-12-21 11:43:19 - Health record requested for pet with id: 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8, by: minamng
+[Info] 2025-12-21 11:43:19 - Fetching health records for pet 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8
+[Info] 2025-12-21 11:43:19 - Pet requested with id : 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8 by: minamng
+[Info] 2025-12-21 11:43:19 - Health record requested for pet with id: 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8, by: minamng
+[Info] 2025-12-21 11:43:19 - Fetching health records for pet 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8
+[Info] 2025-12-21 11:43:26 - All pets requested by: minamng
+[Info] 2025-12-21 11:43:26 - All pets requested by: minamng
+[Info] 2025-12-21 11:43:28 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:43:28 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:43:44 - User successfully logged in: seller
+[Info] 2025-12-21 11:43:46 - Available pets requested by: seller
+[Info] 2025-12-21 11:43:46 - Available pets requested by: seller
+[Info] 2025-12-21 11:44:06 - Invoice created for pet Bernski Planinski Pas, seller: seller, total price: 212.4915
+[Info] 2025-12-21 11:44:06 - Pet sold: Bernski Planinski Pas by seller. Final price: 212.4915
+[Info] 2025-12-21 11:44:06 - Available pets requested by: seller
+[Info] 2025-12-21 11:44:25 - User successfully logged in: minamng
+[Info] 2025-12-21 11:44:27 - All pets requested by: minamng
+[Info] 2025-12-21 11:44:27 - All pets requested by: minamng
+[Info] 2025-12-21 11:44:31 - Pet requested with id : 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8 by: minamng
+[Info] 2025-12-21 11:44:31 - Health record requested for pet with id: 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8, by: minamng
+[Info] 2025-12-21 11:44:31 - Fetching health records for pet 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8
+[Info] 2025-12-21 11:44:31 - Pet requested with id : 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8 by: minamng
+[Info] 2025-12-21 11:44:31 - Health record requested for pet with id: 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8, by: minamng
+[Info] 2025-12-21 11:44:31 - Fetching health records for pet 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8
+[Info] 2025-12-21 11:44:36 - All pets requested by: minamng
+[Info] 2025-12-21 11:44:36 - All pets requested by: minamng
+[Info] 2025-12-21 11:44:37 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:44:37 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:44:44 - Invoice requested with id: 458daea2-e289-4779-9296-62b9334e77b0, by: minamng
+[Info] 2025-12-21 11:44:44 - Invoice requested with id: 458daea2-e289-4779-9296-62b9334e77b0, by: minamng
+[Info] 2025-12-21 11:44:44 - Pet requested with id : 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8 by: minamng
+[Info] 2025-12-21 11:44:44 - Pet requested with id : 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8 by: minamng
+[Info] 2025-12-21 11:45:08 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:45:08 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:45:08 - Invoice requested with id: 458daea2-e289-4779-9296-62b9334e77b0, by: minamng
+[Info] 2025-12-21 11:45:08 - Invoice requested with id: 458daea2-e289-4779-9296-62b9334e77b0, by: minamng
+[Info] 2025-12-21 11:45:08 - Pet requested with id : 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8 by: minamng
+[Info] 2025-12-21 11:45:08 - Pet requested with id : 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8 by: minamng
+[Info] 2025-12-21 11:45:17 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:45:17 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:46:09 - All pets requested by: minamng
+[Info] 2025-12-21 11:46:09 - All pets requested by: minamng
+[Info] 2025-12-21 11:46:10 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 11:46:10 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: minamng
+[Info] 2025-12-21 11:46:10 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 11:46:10 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 11:46:10 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: minamng
+[Info] 2025-12-21 11:46:10 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 11:46:56 - All pets requested by: minamng
+[Info] 2025-12-21 11:46:56 - All pets requested by: minamng
+[Info] 2025-12-21 11:47:05 - All pets requested by: minamng
+[Info] 2025-12-21 11:47:05 - All pets requested by: minamng
+[Info] 2025-12-21 11:47:06 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 11:47:06 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: minamng
+[Info] 2025-12-21 11:47:06 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 11:47:06 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 11:47:06 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: minamng
+[Info] 2025-12-21 11:47:06 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 11:47:42 - New health record submission for PetId=b097d407-32fa-4e8a-be66-b94343126593 by minamng
+[Info] 2025-12-21 11:47:42 - Health record added for pet b097d407-32fa-4e8a-be66-b94343126593 by minamng. Type: Checkup, Date: 12/21/2025 12:00:00 AM
+[Info] 2025-12-21 11:47:43 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 11:47:43 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: minamng
+[Info] 2025-12-21 11:47:43 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 11:47:43 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 11:47:43 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: minamng
+[Info] 2025-12-21 11:47:43 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 11:47:52 - All pets requested by: minamng
+[Info] 2025-12-21 11:47:52 - All pets requested by: minamng
+[Info] 2025-12-21 11:47:56 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:47:56 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:51:01 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:51:01 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:51:01 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:51:01 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:51:08 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:51:08 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:51:08 - Invoice requested with id: 458daea2-e289-4779-9296-62b9334e77b0, by: minamng
+[Info] 2025-12-21 11:51:08 - Invoice requested with id: 458daea2-e289-4779-9296-62b9334e77b0, by: minamng
+[Info] 2025-12-21 11:51:08 - Pet requested with id : 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8 by: minamng
+[Info] 2025-12-21 11:51:08 - Pet requested with id : 46d89976-e0b2-41d2-a1f1-c7f8c4ee25c8 by: minamng
+[Info] 2025-12-21 11:51:10 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:51:10 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:51:11 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:51:11 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:51:11 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:51:11 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:51:14 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:51:14 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:51:17 - All pets requested by: minamng
+[Info] 2025-12-21 11:51:17 - All pets requested by: minamng
+[Info] 2025-12-21 11:52:47 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:52:47 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:52:49 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:52:49 - Invoice requested with id: df0e5816-4499-4227-9d92-df4fa92a8685, by: minamng
+[Info] 2025-12-21 11:52:49 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:52:49 - Pet requested with id : 2476213d-55cd-45e3-83ec-6b9023634a01 by: minamng
+[Info] 2025-12-21 11:52:51 - Invoice list requested by: minamng
+[Info] 2025-12-21 11:52:51 - Invoice list requested by: minamng
+[Info] 2025-12-21 19:17:02 - User successfully logged in: seller
+[Info] 2025-12-21 19:17:04 - Available pets requested by: seller
+[Info] 2025-12-21 19:17:04 - Available pets requested by: seller
+[Info] 2025-12-21 19:17:10 - Available pets requested by: seller
+[Info] 2025-12-21 19:17:10 - Available pets requested by: seller
+[Info] 2025-12-21 19:17:22 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: seller
+[Info] 2025-12-21 19:17:22 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: seller
+[Info] 2025-12-21 19:17:22 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 19:17:22 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: seller
+[Info] 2025-12-21 19:17:22 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: seller
+[Info] 2025-12-21 19:17:22 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 19:17:25 - Available pets requested by: seller
+[Info] 2025-12-21 19:17:25 - Available pets requested by: seller
+[Info] 2025-12-21 19:17:32 - Invoice created for pet Rotvajler, seller: seller, total price: 220.00
+[Info] 2025-12-21 19:17:32 - Pet sold: Rotvajler by seller. Final price: 220.00
+[Info] 2025-12-21 19:17:32 - Available pets requested by: seller
+[Info] 2025-12-21 19:17:45 - User successfully logged in: minamng
+[Info] 2025-12-21 19:17:47 - All pets requested by: minamng
+[Info] 2025-12-21 19:17:47 - All pets requested by: minamng
+[Info] 2025-12-21 19:17:50 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 19:17:50 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: minamng
+[Info] 2025-12-21 19:17:50 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 19:17:50 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 19:17:50 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: minamng
+[Info] 2025-12-21 19:17:50 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 19:17:53 - All pets requested by: minamng
+[Info] 2025-12-21 19:17:53 - All pets requested by: minamng
+[Info] 2025-12-21 19:17:54 - Invoice list requested by: minamng
+[Info] 2025-12-21 19:17:54 - Invoice list requested by: minamng
+[Info] 2025-12-21 19:18:05 - Invoice requested with id: 41bb4fb5-d34f-4e31-91e6-c7aa643a8362, by: minamng
+[Info] 2025-12-21 19:18:05 - Invoice requested with id: 41bb4fb5-d34f-4e31-91e6-c7aa643a8362, by: minamng
+[Info] 2025-12-21 19:18:05 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 19:18:05 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 19:18:19 - Invoice list requested by: minamng
+[Info] 2025-12-21 19:18:19 - Invoice list requested by: minamng
+[Info] 2025-12-21 22:35:38 - User successfully logged in: bojansell
+[Info] 2025-12-21 22:35:39 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:35:39 - Available pets requested by: bojansell
+[Warning] 2025-12-21 22:35:48 - Attempt to sell pet outside working hours by bojansell
+[Warning] 2025-12-21 22:37:42 - Attempt to sell pet outside working hours by bojansell
+[Warning] 2025-12-21 22:38:12 - Attempt to sell pet outside working hours by bojansell
+[Warning] 2025-12-21 22:39:41 - Attempt to sell pet outside working hours by bojansell
+[Info] 2025-12-21 22:40:44 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:40:44 - Available pets requested by: bojansell
+[Warning] 2025-12-21 22:40:51 - Attempt to sell pet outside working hours by bojansell
+[Warning] 2025-12-21 22:41:24 - Attempt to sell pet outside working hours by bojansell
+[Info] 2025-12-21 22:41:31 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:41:31 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:41:33 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:41:33 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:41:35 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:41:35 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:41:37 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:41:37 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:41:44 - Health record requested for pet with id: 3227df5e-7011-42b3-b868-d6ea240a6e0a, by: bojansell
+[Info] 2025-12-21 22:41:44 - Pet requested with id : 3227df5e-7011-42b3-b868-d6ea240a6e0a by: bojansell
+[Info] 2025-12-21 22:41:44 - Fetching health records for pet 3227df5e-7011-42b3-b868-d6ea240a6e0a
+[Info] 2025-12-21 22:41:44 - Pet requested with id : 3227df5e-7011-42b3-b868-d6ea240a6e0a by: bojansell
+[Info] 2025-12-21 22:41:44 - Health record requested for pet with id: 3227df5e-7011-42b3-b868-d6ea240a6e0a, by: bojansell
+[Info] 2025-12-21 22:41:44 - Fetching health records for pet 3227df5e-7011-42b3-b868-d6ea240a6e0a
+[Info] 2025-12-21 22:41:46 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:41:46 - Available pets requested by: bojansell
+[Info] 2025-12-21 22:41:59 - User successfully logged in: minamng
+[Info] 2025-12-21 22:42:01 - All pets requested by: minamng
+[Info] 2025-12-21 22:42:01 - All pets requested by: minamng
+[Info] 2025-12-21 22:42:04 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 22:42:04 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: minamng
+[Info] 2025-12-21 22:42:04 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 22:42:04 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 22:42:04 - Health record requested for pet with id: b097d407-32fa-4e8a-be66-b94343126593, by: minamng
+[Info] 2025-12-21 22:42:04 - Fetching health records for pet b097d407-32fa-4e8a-be66-b94343126593
+[Info] 2025-12-21 22:42:05 - All pets requested by: minamng
+[Info] 2025-12-21 22:42:05 - All pets requested by: minamng
+[Info] 2025-12-21 22:42:06 - Invoice list requested by: minamng
+[Info] 2025-12-21 22:42:06 - Invoice list requested by: minamng
+[Info] 2025-12-21 22:42:10 - Invoice requested with id: 41bb4fb5-d34f-4e31-91e6-c7aa643a8362, by: minamng
+[Info] 2025-12-21 22:42:10 - Invoice requested with id: 41bb4fb5-d34f-4e31-91e6-c7aa643a8362, by: minamng
+[Info] 2025-12-21 22:42:10 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 22:42:10 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-21 22:42:12 - Invoice list requested by: minamng
+[Info] 2025-12-21 22:42:12 - Invoice list requested by: minamng
+[Info] 2025-12-22 21:23:35 - User successfully logged in: minamng
+[Info] 2025-12-22 21:23:39 - Invoice list requested by: minamng
+[Info] 2025-12-22 21:23:39 - Invoice list requested by: minamng
+[Info] 2025-12-22 21:23:40 - Invoice requested with id: 41bb4fb5-d34f-4e31-91e6-c7aa643a8362, by: minamng
+[Info] 2025-12-22 21:23:40 - Invoice requested with id: 41bb4fb5-d34f-4e31-91e6-c7aa643a8362, by: minamng
+[Info] 2025-12-22 21:23:40 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-22 21:23:40 - Pet requested with id : b097d407-32fa-4e8a-be66-b94343126593 by: minamng
+[Info] 2025-12-22 21:23:43 - Invoice list requested by: minamng
+[Info] 2025-12-22 21:23:43 - Invoice list requested by: minamng
+[Info] 2025-12-22 21:23:45 - All pets requested by: minamng
+[Info] 2025-12-22 21:23:45 - All pets requested by: minamng
+[Info] 2025-12-22 21:24:02 - All pets requested by: minamng
+[Info] 2025-12-22 21:24:02 - All pets requested by: minamng
+[Info] 2025-12-22 21:24:11 - All pets requested by: minamng
+[Info] 2025-12-22 21:24:11 - All pets requested by: minamng
+[Info] 2025-12-22 21:24:21 - User successfully logged in: bojansell
+[Info] 2025-12-22 21:24:22 - Available pets requested by: bojansell
+[Info] 2025-12-22 21:24:22 - Available pets requested by: bojansell
+[Info] 2025-12-22 21:24:26 - Available pets requested by: bojansell
+[Info] 2025-12-22 21:24:26 - Available pets requested by: bojansell

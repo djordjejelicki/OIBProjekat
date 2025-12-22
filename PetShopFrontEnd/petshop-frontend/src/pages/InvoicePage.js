@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import invoiceApi from "../api/invoiceApi";
 import BackButton from "../components/BackButton"
 import { Link } from "react-router-dom";
+import { formatDateTime } from "../utils/formatDateTime";
 import "../styles/InvoicePage.css";
 
 export default function InvoicePage() {
@@ -42,7 +43,7 @@ export default function InvoicePage() {
                 <tbody>
                     {invoices.map((inv) => (
                         <tr key={inv.id}>
-                            <td>{new Date(inv.dateTime).toLocaleString()}</td>
+                            <td>{formatDateTime(inv.dateTime)}</td>
                             <td>{inv.sellerName}</td>
                             <td>{inv.totalAmount}</td>
                             <td>

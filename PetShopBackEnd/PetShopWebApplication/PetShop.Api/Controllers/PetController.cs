@@ -85,7 +85,6 @@ namespace PetShop.Api.Controllers
 
         [HttpGet("{id}")]
         [Authorize]
-
         public IActionResult GetById(Guid id)
         {
             _logger.Log(LogLevel.Info, $"Pet requested with id : {id} by: {User.Identity.Name}");

@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import invoiceApi from "../api/invoiceApi";
 import petApi from "../api/petApi";
 import BackButton from "../components/BackButton";
+import { formatDateTime } from "../utils/formatDateTime";
 import "../styles/InvoiceDetailsPage.css";
 
 export default function InvoiceDetailsPage(){
@@ -36,10 +37,10 @@ export default function InvoiceDetailsPage(){
             <BackButton to="/manager/invoices" label="← Back to invoices" />
 
             <h2>Invoice Details</h2>
-
+            
             <div className="invoice-card">
                 <p><strong>Seller:</strong> {invoice.sellerName}</p>
-                <p><strong>Date:</strong>{new Date(invoice.dateTime).toLocaleString()}</p>
+                <p><strong>Date & Time:</strong> {formatDateTime(invoice.dateTime)}</p>
                 <p><strong>Total Amount:</strong> €{invoice.totalAmount}</p>
             </div>
 

@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD2624F2-A682-44F4-982C-4144FBDA869F}|PetShop.Application\\PetShop.Application.csproj|c:\\users\\djordje\\desktop\\oibprojekat\\petshopbackend\\petshopwebapplication\\petshop.application\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD2624F2-A682-44F4-982C-4144FBDA869F}|PetShop.Application\\PetShop.Application.csproj|solutionrelative:petshop.application\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Application\\Helpers\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "PetShop.Application\\Helpers\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Djordje\\Desktop\\OIBProjekat\\PetShopBackEnd\\PetShopWebApplication\\PetShop.Application\\Helpers\\PasswordHasher.cs",
+              "RelativeToolTip": "PetShop.Application\\Helpers\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:53:39.234Z",
+              "EditorCaption": ""
             }
           ]
         }

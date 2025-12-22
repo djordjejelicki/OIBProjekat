@@ -14,17 +14,21 @@ namespace PetShop.Infrastructure.Services
             _nightS = nightS;
         }
 
-        public ISalesService GetCurrentService()
+        public ISalesService? GetCurrentService()
         {
             var now = DateTime.Now.TimeOfDay;
 
             var dayStart = new TimeSpan(8, 0, 0);
             var dayEnd = new TimeSpan(16, 0, 0);
+            var nightEnd = new TimeSpan(22, 0, 0);
 
             if (now >= dayStart && now < dayEnd)
                 return _dayS;
 
-            return _nightS;
+            if (now >= dayEnd && now < nightEnd) 
+                return _nightS;
+
+            return null;
 
             
         }

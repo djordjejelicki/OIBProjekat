@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import SellConfirmModal from "../components/SellConfirmModal";
 
 export default function SellerPetsPage() {
-    console.log("SellerPetsPage mounted");
+    
     const [pets, setPets] = useState([]);
     const [loading, setLoading] = useState(true);
     const [soldInvoice, setSoldInvoice] = useState(null);
@@ -24,7 +24,7 @@ export default function SellerPetsPage() {
             const res = await petApi.getAvailablePets();
             setPets(res.data);
         }catch(err){
-            console.error("Error loading availble pets:", err);
+            console.error("Error loading availble pets: ", err);
         }finally{
             setLoading(false);
         }
@@ -38,7 +38,7 @@ export default function SellerPetsPage() {
             await loadAvailable();
         }catch(err){
             console.error("Error selling pet:", err);
-            alert("Error while selling pet.");
+            alert("Error while selling pet: " + err.response.data);
         }
     };
 

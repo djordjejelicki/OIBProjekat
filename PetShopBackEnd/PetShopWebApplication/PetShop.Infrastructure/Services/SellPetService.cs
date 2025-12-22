@@ -36,6 +36,12 @@ namespace PetShop.Infrastructure.Services
             }
 
             var salesService = _salesSelectorService.GetCurrentService();
+            if (salesService == null) 
+            {
+                _logger.Log(LogLevel.Warning, $"Attempt to sell pet outside working hours by: {seller.Username}");
+                throw new InvalidOperationException("Pet shop is closed. Sales are allowed only between 08:00 and 22:00.");
+            }
+
             var finalAmount = salesService.ApplyPriceModifier((decimal)pet.Price);
 
             pet.Sold = true;
